@@ -256,7 +256,7 @@ function addReadingCard(i) {
   const f = (zhKey, enKey) => (lang === "zh" ? c[zhKey] : c[enKey]);
   const posCtx = (T[lang]["posctx." + state.spread] || [])[i] || "";
   const rc = document.createElement("div");
-  rc.className = "reading-card";
+  rc.className = "reading-card" + (rev ? " rev" : "");
   rc.innerHTML = `
     <div class="rc-img"><img src="${cardUrl(c)}" alt="${c.name_en}" loading="lazy" /></div>
     <div class="rc-body">
