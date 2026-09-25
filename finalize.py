@@ -14,6 +14,13 @@ if os.path.exists("/home/ubuntu/tarot-site/data/zh_love_partial.json"):
 love.update({int(k): v for k, v in json.load(open("/home/ubuntu/tarot-site/data/majors_love_zh.json")).items()})
 
 ELEMENT_ZH = {"Fire": "火", "Water": "水", "Air": "風", "Earth": "土"}
+THEMES = ["health", "wealth", "study", "family"]
+theme = {}
+for T in THEMES:
+    fp = f"/home/ubuntu/tarot-site/data/zh_theme_{T}.json"
+    if os.path.exists(fp):
+        for k, v in json.load(open(fp)).items():
+            theme[(T, k)] = v
 
 final, missing = [], []
 for c in en:
@@ -21,12 +28,18 @@ for c in en:
     lv = love.get(c["id"]) or {}
     if not b.get("kw_zh"): missing.append((c["id"], "kw"))
     if not lv.get("love_zh"): missing.append((c["id"], "love"))
-    final.append({**c, "name_zh": names[c["id"]],
+    entry = {**c, "name_zh": names[c["id"]],
         "element_zh": ELEMENT_ZH.get(c["element"], c["element"]),
         "kw_zh": b.get("kw_zh"), "kw_rev_zh": b.get("kw_rev_zh"),
         "mean_zh": b.get("mean_zh"), "mean_rev_zh": b.get("mean_rev_zh"),
         "love_zh": lv.get("love_zh"), "love_rev_zh": lv.get("love_rev_zh"),
-        "career_zh": lv.get("career_zh"), "career_rev_zh": lv.get("career_rev_zh")})
+        "career_zh": lv.get("career_zh"), "career_rev_zh": lv.get("career_rev_zh")}
+    for T in THEMES:
+        t = theme.get((T, str(c["id"]))) or {}
+        for fld, src in (("_zh", "zh"), ("_rev_zh", "rev_zh"), ("_en", "en"), ("_rev_en", "rev_en")):
+            entry[T + fld] = t.get(src)
+        if not t.get("zh"): missing.append((c["id"], T))
+    final.append(entry)
 print("missing:", missing if missing else "NONE")
 
 cc = opencc.OpenCC('s2t')
@@ -35,6 +48,10 @@ for c in final:
         v = c.get(k)
         if isinstance(v, list): c[k] = [cc.convert(x) for x in v]
         elif isinstance(v, str): c[k] = cc.convert(v)
+    for T in THEMES:
+        for fld in (T + "_zh", T + "_rev_zh", T + "_en", T + "_rev_en"):
+            v = c.get(fld)
+            if isinstance(v, str): c[fld] = cc.convert(v)
 
 json.dump(final, open("/home/ubuntu/tarot-site/data/deck.json", "w"), ensure_ascii=False, indent=1)
 json.dump(final, open("/home/ubuntu/tarot-site/deck.json", "w"), ensure_ascii=False, indent=1)

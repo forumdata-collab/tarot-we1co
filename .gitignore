@@ -1,5 +1,7 @@
 data/en.json
 data/name_zh.json
 data/zh_partial.json
+data/zh_love_partial.json
+data/zh_theme_partial.json
 *.pyc
 __pycache__/

@@ -7,6 +7,17 @@ const T = {
     "setup.title": "靜下心，在心中默想一個問題",
     "setup.hint": "問題越具體，牌面越有方向。不輸入問題也可以。",
     "setup.qPlaceholder": "你現在最想了解的是…？",
+    "setup.chipHint": "選一個主題，會即時套用預設問題；唔揀都可以自訂問題。",
+    "theme.health": "健康", "theme.love": "愛情", "theme.career": "事業",
+    "theme.wealth": "財富", "theme.study": "學業", "theme.family": "家庭",
+    "theme.q.health": "我想了解健康近況與調理方向",
+    "theme.q.love": "我想了解感情發展與緣份",
+    "theme.q.career": "我想了解事業運勢與方向",
+    "theme.q.wealth": "我想了解財富與理財方向",
+    "theme.q.study": "我想了解學業與學習進展",
+    "theme.q.family": "我想了解家庭關係與和睦",
+    "theme.line": "主題深度解讀（已預生成）",
+    "deep.btnTheme": "✦ 主題深度解讀",
     "setup.spread": "選擇牌陣",
     "setup.reversed": "允許逆位（部分牌會倒轉）",
     "setup.start": "✦ 開始洗牌",
@@ -34,6 +45,7 @@ const T = {
     "ov.q": "你的問題：",
     "ov.nq": "（心中默想的問題）",
     "ov.narr": "整體而言，這副牌陣傳遞的核心訊息是：",
+    "ov.themeLine": "你今次以「%s」為主題求問。",
     "deep.btn": "✦ AI 深度解讀",
     "deep.hint": "由 AI 綜合整副牌陣撰寫更長的解讀（可選）",
     "deep.loading": "占卜師凝神解讀中…",
@@ -45,6 +57,17 @@ const T = {
     "setup.title": "Take a deep breath and hold your question in mind",
     "setup.hint": "A clear question gives clearer answers. You may also shuffle without one.",
     "setup.qPlaceholder": "What would you like to know right now…？",
+    "setup.chipHint": "Pick a theme to fill a preset question — or type your own.",
+    "theme.health": "Health", "theme.love": "Love", "theme.career": "Career",
+    "theme.wealth": "Wealth", "theme.study": "Study", "theme.family": "Family",
+    "theme.q.health": "I'd like insight into my health and how to take care of myself",
+    "theme.q.love": "I'd like insight into my love life and connections",
+    "theme.q.career": "I'd like insight into my career path and direction",
+    "theme.q.wealth": "I'd like insight into my wealth and finances",
+    "theme.q.study": "I'd like insight into my studies and progress",
+    "theme.q.family": "I'd like insight into my family and harmony at home",
+    "theme.line": "Theme deep reading (pre-generated)",
+    "deep.btnTheme": "✦ Theme Deep Reading",
     "setup.spread": "Choose a Spread",
     "setup.reversed": "Allow reversed cards (some cards will appear upside down)",
     "setup.start": "✦ Shuffle the Deck",
@@ -72,6 +95,7 @@ const T = {
     "ov.q": "Your question: ",
     "ov.nq": "(your unspoken question)",
     "ov.narr": "Overall, the core message of this spread is: ",
+    "ov.themeLine": "This reading is focused on %s.",
     "deep.btn": "✦ AI Deep Reading",
     "deep.hint": "Let AI weave a longer reading from your whole spread (optional)",
     "deep.loading": "The reader is consulting the cards…",
@@ -84,11 +108,12 @@ const T = {
 let lang = localStorage.getItem("tstars-lang") ||
   (navigator.language && navigator.language.toLowerCase().startsWith("zh") ? "zh" : "en");
 let deck = null;
-let state = { spread: 3, reversed: true, question: "", shuffled: [], drawn: [], flipped: 0, shuffleTimer: null };
+let state = { spread: 3, reversed: true, question: "", theme: null, shuffled: [], drawn: [], flipped: 0, shuffleTimer: null };
 
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
 const t = (k) => (T[lang] && T[lang][k]) || k;
+const THEME_EMOJI = { health: "🩺", love: "💗", career: "💼", wealth: "💰", study: "📚", family: "🏠" };
 
 function switchLang(to) {
   lang = to;
@@ -136,6 +161,15 @@ function bindSetup() {
       $$(".spread-opt").forEach((x) => x.classList.remove("active"));
       b.classList.add("active");
       state.spread = +b.dataset.spread;
+    })
+  );
+  $$(".theme-chip").forEach((b) =>
+    b.addEventListener("click", () => {
+      $$(".theme-chip").forEach((x) => x.classList.remove("active"));
+      b.classList.add("active");
+      state.theme = b.dataset.theme;
+      $("#question").value = t("theme.q." + b.dataset.theme);
+      $("#deep-btn").textContent = t("deep.btnTheme");
     })
   );
   $("#start-btn").addEventListener("click", () => {
@@ -272,6 +306,8 @@ function addReadingCard(i) {
           .map((k) => `<span class="kw">${k}</span>`).join("")}
       </div>
       <p class="rc-mean"><b>${t("sec.mean")} ·</b> ${rev ? (f("mean_rev_zh", "mean_rev_en") || "") : (f("mean_zh", "mean_en") || "")}</p>
+      ${state.theme && state.theme !== "love" && state.theme !== "career" ? `<div class="rc-aspect theme-line"><span class="aspect-label">${THEME_EMOJI[state.theme] || ""} ${t("theme." + state.theme)}</span>
+        <span class="aspect-txt">${(lang === "zh" ? c[state.theme + (rev ? "_rev" : "") + "_zh"] : c[state.theme + (rev ? "_rev_en" : "_en")]) || ""}</span></div>` : ""}
       <div class="rc-aspect"><span class="aspect-label">${t("sec.love")}</span>
         <span class="aspect-txt">${rev ? (f("love_rev_zh", "love_rev_en") || "") : (f("love_zh", "love_en") || "")}</span></div>
       <div class="rc-aspect"><span class="aspect-label">${t("sec.career")}</span>
@@ -310,6 +346,7 @@ function buildOverview() {
   div.className = "overview";
   const qLine = state.question ? t("ov.q") + state.question : t("ov.nq");
   div.innerHTML = `<h3>${t("ov.title")}</h3><p>${qLine}</p>
+    ${state.theme ? `<p style="margin-top:6px">${THEME_EMOJI[state.theme] || ""} ${t("ov.themeLine").replace("%s", t("theme." + state.theme))}</p>` : ""}
     <p style="margin-top:6px">${t("ov.narr")}${narr}</p>
     <p style="margin-top:6px">${t("ov.kw")}${names.join("、")}</p>`;
   $("#reading-list").prepend(div);
@@ -327,6 +364,25 @@ async function runDeepReading() {
   out.className = "deep-out loading";
   out.textContent = t("deep.loading");
   btn.disabled = true;
+  // Pre-generated theme reading — zero AI usage
+  if (state.theme) {
+    const tname = state.theme;
+    const para = state.drawn
+      .map((d, i) => {
+        const c = cardById(d.id);
+        const line = lang === "zh"
+          ? (d.rev ? c[tname + "_rev_zh"] : c[tname + "_zh"])
+          : (d.rev ? c[tname + "_rev_en"] : c[tname + "_en"]);
+        return lang === "zh"
+          ? `「${posLabel(i)}」的〈${c.name_zh}〉（${d.rev ? t("badge.rev") : t("badge.up")}）：${line}`
+          : `${c.name_en} (${d.rev ? "reversed" : "upright"}) in ${posLabel(i)}: ${line}`;
+      })
+      .join("\n\n");
+    out.className = "deep-out";
+    out.textContent = `${THEME_EMOJI[tname] || ""} ${t("theme." + tname)} · ${t("theme.line")}\n\n${para}`;
+    btn.disabled = false;
+    return;
+  }
   const payload = {
     lang,
     question: state.question,
@@ -375,7 +431,9 @@ function bindActions() {
   });
   $("#again-btn").addEventListener("click", () => {
     clearInterval(state.shuffleTimer);
-    state.drawn = []; state.flipped = 0;
+    state.drawn = []; state.flipped = 0; state.theme = null;
+    $$(".theme-chip").forEach((x) => x.classList.remove("active"));
+    $("#deep-btn").textContent = t("deep.btn");
     $("#reading-list").innerHTML = "";
     $("#draw-grid").innerHTML = "";
     $("#draw-cta").hidden = true;

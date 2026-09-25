@@ -24,6 +24,15 @@
     <div class="field">
       <input id="question" type="text" maxlength="120" data-i18n-placeholder="setup.qPlaceholder" placeholder="你現在最想了解的是…？" aria-label="Question" />
     </div>
+    <div id="theme-chips" class="theme-chips" aria-label="Themes">
+      <button type="button" class="theme-chip" data-theme="health"><span>🩺</span><span data-i18n="theme.health">健康</span></button>
+      <button type="button" class="theme-chip" data-theme="love"><span>💗</span><span data-i18n="theme.love">愛情</span></button>
+      <button type="button" class="theme-chip" data-theme="career"><span>💼</span><span data-i18n="theme.career">事業</span></button>
+      <button type="button" class="theme-chip" data-theme="wealth"><span>💰</span><span data-i18n="theme.wealth">財富</span></button>
+      <button type="button" class="theme-chip" data-theme="study"><span>📚</span><span data-i18n="theme.study">學業</span></button>
+      <button type="button" class="theme-chip" data-theme="family"><span>🏠</span><span data-i18n="theme.family">家庭</span></button>
+    </div>
+    <p class="chip-hint" data-i18n="setup.chipHint">選一個主題，會即時套用預設問題；唔揀都可以自訂問題。</p>
     <h3 class="field-label" data-i18n="setup.spread">選擇牌陣</h3>
     <div id="spread-opts" class="spread-opts" role="radiogroup" aria-label="Spread">
       <button type="button" class="spread-opt" data-spread="1">
@@ -82,6 +91,6 @@
 <script>
 window.DECK_SRC = "./deck.json";
 </script>
-<script src="./app.js?v=2" defer></script>
+<script src="./app.js?v=3" defer></script>
 </body>
 </html>
