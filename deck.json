@@ -4,6 +4,7 @@
   "name_en": "The Fool",
   "suit": null,
   "num": 0,
+  "element": "Air",
   "img": "00_Fool.jpg",
   "kw_en": [
    "new beginnings",
@@ -27,6 +28,7 @@
   "career_en": "new career path, taking a professional risk, entrepreneurial leap, learning through experience",
   "career_rev_en": "reckless decisions, poor planning, fear of starting, missed timing",
   "name_zh": "愚者",
+  "element_zh": "風",
   "kw_zh": [
    "新開始",
    "率性而為",
@@ -42,13 +44,18 @@
    "害怕改變"
   ],
   "mean_zh": "一段嶄新旅程展開，帶着純真與勇氣放手一搏，相信未知自有它的安排。",
-  "mean_rev_zh": "警惕憑衝動行事或過分天真，前路未明時，先停下來想清楚再出發。"
+  "mean_rev_zh": "警惕憑衝動行事或過分天真，前路未明時，先停下來想清楚再出發。",
+  "love_zh": "新戀情隨緣而至，帶着純真心去認識，享受探索的樂趣。",
+  "love_rev_zh": "感情中勿輕率投入或逃避承諾，先想清自己真正想要甚麼。",
+  "career_zh": "事業迎來新機會或轉行契機，大膽一試，拼勁會為你開路。",
+  "career_rev_zh": "職場上忌衝動跳槽或準備不足，先做好功課纔行動。"
  },
  {
   "id": 1,
   "name_en": "The Magician",
   "suit": null,
   "num": 1,
+  "element": "Air",
   "img": "01_Magician.jpg",
   "kw_en": [
    "manifestation",
@@ -72,6 +79,7 @@
   "career_en": "skillful execution, using available resources, career initiative, turning ideas into results",
   "career_rev_en": "wasted talent, scattered focus, misused skills, unrealized plans",
   "name_zh": "魔術師",
+  "element_zh": "風",
   "kw_zh": [
    "心想事成",
    "意志力",
@@ -87,13 +95,18 @@
    "幻覺"
   ],
   "mean_zh": "你的資源與才能齊備，集中意志付諸行動，便能將想法化為現實。",
-  "mean_rev_zh": "小心被表象迷惑或受人操控；才能尚未發揮，先整頓渙散的心思。"
+  "mean_rev_zh": "小心被表象迷惑或受人操控；才能尚未發揮，先整頓渙散的心思。",
+  "love_zh": "主動出擊的時刻，展現你的魅力與誠意，對方會同樣回應。",
+  "love_rev_zh": "小心言語或行為上的操控，確保關係建立在真誠之上。",
+  "career_zh": "手握足夠資源與技能，專注執行便能交出亮眼成績。",
+  "career_rev_zh": "當心誇大承諾或走捷徑，整頓專注力，實幹勝於巧言。"
  },
  {
   "id": 2,
   "name_en": "The High Priestess",
   "suit": null,
   "num": 2,
+  "element": "Water",
   "img": "02_High_Priestess.jpg",
   "kw_en": [
    "intuition",
@@ -117,6 +130,7 @@
   "career_en": "trusting professional intuition, working behind the scenes, confidential matters, patient observation",
   "career_rev_en": "overlooked information, surface knowledge, hidden agendas, ignored instincts",
   "name_zh": "女祭司",
+  "element_zh": "水",
   "kw_zh": [
    "直覺",
    "內在智慧",
@@ -132,13 +146,18 @@
    "流於表面"
   ],
   "mean_zh": "答案藏在靜默之中，相信直覺與潛意識的訊息，不必急於向外追問。",
-  "mean_rev_zh": "直覺被忽略，或有意外的隱瞞；靜下心，別只停留在表面的理解。"
+  "mean_rev_zh": "直覺被忽略，或有意外的隱瞞；靜下心，別只停留在表面的理解。",
+  "love_zh": "感情發展未明，多聆聽直覺與對方的心聲，不必急於表白或定位。",
+  "love_rev_zh": "忽略直覺或隱瞞心事只會拉開距離；坦誠交流是解鎖關鍵。",
+  "career_zh": "適合觀察與沉澱，答案會浮現；你也可以等待更佳時機出手。",
+  "career_rev_zh": "職場訊息或同事動機未明，別只信表面，重要決定先核實。"
  },
  {
   "id": 3,
   "name_en": "The Empress",
   "suit": null,
   "num": 3,
+  "element": "Earth",
   "img": "03_Empress.jpg",
   "kw_en": [
    "abundance",
@@ -162,6 +181,7 @@
   "career_en": "creative growth, supportive workplace, productive abundance, nurturing a project",
   "career_rev_en": "creative block, stagnation, lack of support, unproductive effort",
   "name_zh": "皇后",
+  "element_zh": "土",
   "kw_zh": [
    "豐盛",
    "滋養",
@@ -177,13 +197,18 @@
    "停滯"
   ],
   "mean_zh": "豐盛與滋養的時刻，善待身心，讓創造力與愛自然生長。",
-  "mean_rev_zh": "小心過度付出或忽略自己；創作停滯時，先好好照顧自己的需要。"
+  "mean_rev_zh": "小心過度付出或忽略自己；創作停滯時，先好好照顧自己的需要。",
+  "love_zh": "關係沐浴在溫柔與滋養之中，愛情自然茁壯，多享受相處時光。",
+  "love_rev_zh": "過度付出或依賴會令人窒息，留空間給彼此，先照顧好自己。",
+  "career_zh": "創作與合作項目開花結果，以耐心孕育，成果會更豐碩。",
+  "career_rev_zh": "當心計劃停滯或過度操勞，重拾熱情，平衡工作與生活。"
  },
  {
   "id": 4,
   "name_en": "The Emperor",
   "suit": null,
   "num": 4,
+  "element": "Fire",
   "img": "04_Emperor.jpg",
   "kw_en": [
    "structure",
@@ -207,6 +232,7 @@
   "career_en": "leadership, structure, authority, long-term career stability",
   "career_rev_en": "abuse of power, inflexibility, lack of discipline, unstable authority",
   "name_zh": "皇帝",
+  "element_zh": "火",
   "kw_zh": [
    "秩序",
    "權威",
@@ -222,13 +248,18 @@
    "濫用權力"
   ],
   "mean_zh": "以結構與紀律建立穩固基礎，果斷領導，事情會按軌道前進。",
-  "mean_rev_zh": "當心權力失衡或過分僵化；放下控制慾，彈性才能帶來真正的穩定。"
+  "mean_rev_zh": "當心權力失衡或過分僵化；放下控制慾，彈性才能帶來真正的穩定。",
+  "love_zh": "關係需要穩定與承擔，明確的承諾與規劃會讓彼此更有安全感。",
+  "love_rev_zh": "控制慾或過分嚴肅會令感情變冷，學習柔軟，讓對方感到被尊重。",
+  "career_zh": "事業步入軌道，以紀律與領導力推進，適時擔起更高責任。",
+  "career_rev_zh": "當心權力僵化或專斷，願意聆聽下屬與同事，才能走得更遠。"
  },
  {
   "id": 5,
   "name_en": "The Hierophant",
   "suit": null,
   "num": 5,
+  "element": "Earth",
   "img": "05_Hierophant.jpg",
   "kw_en": [
    "tradition",
@@ -252,6 +283,7 @@
   "career_en": "established institutions, mentorship, formal training, conventional career path",
   "career_rev_en": "rebellion against structure, rejecting convention, restrictive institution, dogmatic workplace",
   "name_zh": "教皇",
+  "element_zh": "土",
   "kw_zh": [
    "傳統",
    "指導",
@@ -267,13 +299,18 @@
    "打破規矩"
   ],
   "mean_zh": "循傳統與長者的智慧而行，跟從既有體制與共同價值會更加安心。",
-  "mean_rev_zh": "是時候質疑僵化的規條；忠於內心，別讓教條綁住你的選擇。"
+  "mean_rev_zh": "是時候質疑僵化的規條；忠於內心，別讓教條綁住你的選擇。",
+  "love_zh": "關係可有長輩或傳統祝福，循步漸進的發展會更穩固。",
+  "love_rev_zh": "質疑被教條綁住的感情觀，找出屬於你們自己的相處方式。",
+  "career_zh": "跟從既有制度與導師指引會少走彎路，學習前輩經驗。",
+  "career_rev_zh": "不必盲從公司潛規則，合理打破框架或另覓合適環境。"
  },
  {
   "id": 6,
   "name_en": "The Lovers",
   "suit": null,
   "num": 6,
+  "element": "Air",
   "img": "06_Lovers.jpg",
   "kw_en": [
    "love",
@@ -297,6 +334,7 @@
   "career_en": "aligned career choice, productive partnership, values-based decision, important professional commitment",
   "career_rev_en": "misaligned decision, conflicting priorities, broken partnership, poor commitment",
   "name_zh": "戀人",
+  "element_zh": "風",
   "kw_zh": [
    "愛情",
    "結合",
@@ -312,13 +350,18 @@
    "心態不一"
   ],
   "mean_zh": "真誠的連結與和諧出現，也可能需要在感情或價值上作出重要的抉擇。",
-  "mean_rev_zh": "關係中出現分歧或誘惑；逃避選擇只會令失衡加深，坦誠是第一步。"
+  "mean_rev_zh": "關係中出現分歧或誘惑；逃避選擇只會令失衡加深，坦誠是第一步。",
+  "love_zh": "真愛與心靈契合的象徵，重要抉擇前先誠實面對自己的心。",
+  "love_rev_zh": "關係出現分歧或抉擇壓力，坦誠溝通，別讓誘惑動搖你。",
+  "career_zh": "事業抉擇或合作結盟出現，選擇與你價值觀一致的夥伴。",
+  "career_rev_zh": "當心團隊目標不一或騎牆心態，明確立場才能向前。"
  },
  {
   "id": 7,
   "name_en": "The Chariot",
   "suit": null,
   "num": 7,
+  "element": "Water",
   "img": "07_Chariot.jpg",
   "kw_en": [
    "determination",
@@ -342,6 +385,7 @@
   "career_en": "ambition, focused progress, overcoming competition, taking control of your career",
   "career_rev_en": "scattered forces, stalled ambition, loss of control, aggressive competition",
   "name_zh": "戰車",
+  "element_zh": "水",
   "kw_zh": [
    "決心",
    "勝利",
@@ -357,13 +401,18 @@
    "失控"
   ],
   "mean_zh": "憑決心與自制駕馭力量，向前衝，勝利就在眼前。",
-  "mean_rev_zh": "力量渙散或方向不清，先找回重心，別讓衝動接管方向盤。"
+  "mean_rev_zh": "力量渙散或方向不清，先找回重心，別讓衝動接管方向盤。",
+  "love_zh": "感情進展加速，主動表達與行動會讓關係更進一步。",
+  "love_rev_zh": "當心衝動或用力過猛，感情需要節奏，別只顧自己向前衝。",
+  "career_zh": "目標明確、勢頭正盛，排除障礙後有望取得勝利。",
+  "career_rev_zh": "力量渙散或方向混亂，先定出優先次序再衝刺。"
  },
  {
   "id": 8,
   "name_en": "Strength",
   "suit": null,
   "num": 8,
+  "element": "Fire",
   "img": "08_Strength.jpg",
   "kw_en": [
    "courage",
@@ -387,6 +436,7 @@
   "career_en": "quiet leadership, professional confidence, patience under pressure, managing challenges with composure",
   "career_rev_en": "low confidence, impatience, pressure mishandled, self-doubt",
   "name_zh": "力量",
+  "element_zh": "火",
   "kw_zh": [
    "勇氣",
    "內在力量",
@@ -402,13 +452,18 @@
    "強迫用力"
   ],
   "mean_zh": "真正的力量是溫柔而堅定；以耐心與慈悲應對，馴服內心的猛獸。",
-  "mean_rev_zh": "當心自我懷疑與急躁，越是用力越易失控；先安頓情緒再行動。"
+  "mean_rev_zh": "當心自我懷疑與急躁，越是用力越易失控；先安頓情緒再行動。",
+  "love_zh": "以溫柔與耐心經營，馴服情緒後的真誠最能打動對方。",
+  "love_rev_zh": "當心情緒起伏或自我懷疑，給自己空間，別把不安拋給對方。",
+  "career_zh": "以柔克剛，處理棘手同事或項目時，耐心比強硬更有效。",
+  "career_rev_zh": "過度強迫或壓抑會累積壓力，適時求助，別硬撐。"
  },
  {
   "id": 9,
   "name_en": "The Hermit",
   "suit": null,
   "num": 9,
+  "element": "Earth",
   "img": "09_Hermit.jpg",
   "kw_en": [
    "introspection",
@@ -432,6 +487,7 @@
   "career_en": "independent work, career reflection, specialist expertise, seeking meaningful direction",
   "career_rev_en": "isolation at work, lost direction, avoidance, excessive solitude",
   "name_zh": "隱士",
+  "element_zh": "土",
   "kw_zh": [
    "內省",
    "獨處",
@@ -447,13 +503,18 @@
    "逃避"
   ],
   "mean_zh": "退一步沉澱，獨處中自有答案；提燈前行，智慧會在你內心生長。",
-  "mean_rev_zh": "當心退縮成孤立，過度的獨處令人迷失；適時向外界伸出援手。"
+  "mean_rev_zh": "當心退縮成孤立，過度的獨處令人迷失；適時向外界伸出援手。",
+  "love_zh": "感情需要沉澱與自我整理，獨處後你會更清楚自己想要甚麼。",
+  "love_rev_zh": "當心退縮成疏離，給對方多一點回應，別讓關係在沉默中冷卻。",
+  "career_zh": "適合研究與自我進修，默默打好根基，機會不久將至。",
+  "career_rev_zh": "過度孤立或閉門造車會錯失訊息，走出辦公室與人交流。"
  },
  {
   "id": 10,
   "name_en": "Wheel of Fortune",
   "suit": null,
   "num": 10,
+  "element": "Fire",
   "img": "10_Wheel_of_Fortune.jpg",
   "kw_en": [
    "change",
@@ -477,6 +538,7 @@
   "career_en": "changing opportunities, career turning point, unexpected progress, adapting to professional cycles",
   "career_rev_en": "setbacks, missed opportunities, bad luck, clinging to the past",
   "name_zh": "命運之輪",
+  "element_zh": "火",
   "kw_zh": [
    "轉變",
    "循環",
@@ -492,13 +554,18 @@
    "死抓不放"
   ],
   "mean_zh": "命運之輪正在轉動，轉捩點與機遇到來，順勢而為自有新局。",
-  "mean_rev_zh": "抗拒改變或重蹈舊循環；鬆開執着，壞運過後必見轉機。"
+  "mean_rev_zh": "抗拒改變或重蹈舊循環；鬆開執着，壞運過後必見轉機。",
+  "love_zh": "緣分正在流轉，順其自然，合適的人會在對的時刻出現。",
+  "love_rev_zh": "感情陷入重複循環時，主動打破慣性，壞運不會永遠持續。",
+  "career_zh": "時來運到，趁勢而上，把握轉捩點帶來的機遇。",
+  "career_rev_zh": "當心計劃被打亂，保持彈性，別死抓住已經過時的安排。"
  },
  {
   "id": 11,
   "name_en": "Justice",
   "suit": null,
   "num": 11,
+  "element": "Air",
   "img": "11_Justice.jpg",
   "kw_en": [
    "fairness",
@@ -522,6 +589,7 @@
   "career_en": "fair evaluation, contracts and legal matters, accountable decisions, merit-based outcome",
   "career_rev_en": "unfair outcome, dishonest dealings, avoided responsibility, bias",
   "name_zh": "正義",
+  "element_zh": "風",
   "kw_zh": [
    "公平",
    "真相",
@@ -537,13 +605,18 @@
    "失衡"
   ],
   "mean_zh": "以公正與真相衡量一切，種下的因自有其果，結果終會明朗。",
-  "mean_rev_zh": "當心偏見或不公的裁決；誠實面對責任，失衡終須修正。"
+  "mean_rev_zh": "當心偏見或不公的裁決；誠實面對責任，失衡終須修正。",
+  "love_zh": "關係需要公平與平衡，坦誠相待，付出與回報自然會對等。",
+  "love_rev_zh": "當心偏見或不公造成裂痕，正視問題，別逃避該負的責任。",
+  "career_zh": "努力得到應有評價，合約與法律事宜也會如你所願。",
+  "career_rev_zh": "職場可能存在不公或隱瞞，保存證據，以理據爭取公平。"
  },
  {
   "id": 12,
   "name_en": "The Hanged Man",
   "suit": null,
   "num": 12,
+  "element": "Water",
   "img": "12_Hanged_Man.jpg",
   "kw_en": [
    "surrender",
@@ -567,6 +640,7 @@
   "career_en": "career pause, delayed progress, new perspective, reconsidering professional priorities",
   "career_rev_en": "stalled progress, resistance to change, wasted delay, indecision",
   "name_zh": "倒吊人",
+  "element_zh": "水",
   "kw_zh": [
    "放下",
    "換個角度看",
@@ -582,13 +656,18 @@
    "白費犧牲"
   ],
   "mean_zh": "暫停不是停滯，是為了換一個角度；放下掌控，答案自會呈現。",
-  "mean_rev_zh": "拖延與抗拒只會令你困在原地；別再白白犧牲，是時候作出決定。"
+  "mean_rev_zh": "拖延與抗拒只會令你困在原地；別再白白犧牲，是時候作出決定。",
+  "love_zh": "暫停腳步看清關係全貌，換個角度，答案與解脫同時到來。",
+  "love_rev_zh": "拖延或自我犧牲不會解決問題，勇敢面對纔是轉機。",
+  "career_zh": "事業需要沉澱與創新思考，先蹲低，是為了跳得更高。",
+  "career_rev_zh": "當心卡在進退兩難，拖得愈久代價愈大，是時候作決定。"
  },
  {
   "id": 13,
   "name_en": "Death",
   "suit": null,
   "num": 13,
+  "element": "Water",
   "img": "13_Death.jpg",
   "kw_en": [
    "endings",
@@ -612,6 +691,7 @@
   "career_en": "career transition, ending an outdated role, professional reinvention, making space for change",
   "career_rev_en": "clinging to an outdated role, fear of change, stagnation, delayed transition",
   "name_zh": "死神",
+  "element_zh": "水",
   "kw_zh": [
    "結束",
    "蛻變",
@@ -627,13 +707,18 @@
    "未了之事"
   ],
   "mean_zh": "一個階段結束，讓該離開的離開；轉化之後，是更生機勃勃的你。",
-  "mean_rev_zh": "抗拒改變令一切停滯；放手讓舊的完結，新的才能進來。"
+  "mean_rev_zh": "抗拒改變令一切停滯；放手讓舊的完結，新的才能進來。",
+  "love_zh": "舊關係模式的結束開啟新章，放手之後迎來更成熟的感情。",
+  "love_rev_zh": "抗拒結束只會延長痛苦，好好道別，才能騰出空間給新開始。",
+  "career_zh": "轉型與重組的時刻，舊崗位或舊方法落幕，新方向曙光初現。",
+  "career_rev_zh": "當心固守舊路陷入停滯，主動求變好過被環境逼着變。"
  },
  {
   "id": 14,
   "name_en": "Temperance",
   "suit": null,
   "num": 14,
+  "element": "Fire",
   "img": "14_Temperance.jpg",
   "kw_en": [
    "balance",
@@ -657,6 +742,7 @@
   "career_en": "work-life balance, collaborative teamwork, steady progress, integrating different skills",
   "career_rev_en": "overwork, imbalance, friction, poor integration",
   "name_zh": "節制",
+  "element_zh": "火",
   "kw_zh": [
    "平衡",
    "節制",
@@ -672,13 +758,18 @@
    "矯枉過正"
   ],
   "mean_zh": "以耐心調和對立，中庸之道帶來療癒；慢一點，事情自然融會貫通。",
-  "mean_rev_zh": "當心過度或失衡，急進與矯枉過正只會製造摩擦；回到中線。"
+  "mean_rev_zh": "當心過度或失衡，急進與矯枉過正只會製造摩擦；回到中線。",
+  "love_zh": "感情需要平衡與包容，慢慢調和差異，關係會趨向融洽。",
+  "love_rev_zh": "當心忽冷忽熱或矯枉過正，保持穩定節奏，別把小摩擦放大。",
+  "career_zh": "以中庸之道處理磨合中的項目，耐心協調，成果自然順暢。",
+  "career_rev_zh": "當心工作失衡或過度趕工，調整步調，避免因急躁出錯。"
  },
  {
   "id": 15,
   "name_en": "The Devil",
   "suit": null,
   "num": 15,
+  "element": "Earth",
   "img": "15_Devil.jpg",
   "kw_en": [
    "attachment",
@@ -702,6 +793,7 @@
   "career_en": "unhealthy attachment to work, material ambition, restrictive job, workplace power dynamics",
   "career_rev_en": "leaving a restrictive job, breaking unhealthy patterns, reclaiming freedom, recovery",
   "name_zh": "惡魔",
+  "element_zh": "土",
   "kw_zh": [
    "執着",
    "誘惑",
@@ -717,13 +809,18 @@
    "康復"
   ],
   "mean_zh": "看清綁住你的枷鎖——慾望與慣性；覺察當下，鎖鏈其實一推即開。",
-  "mean_rev_zh": "你正一步步掙脫束縛，重新掌握主導權；覺醒之後，自由屬於你。"
+  "mean_rev_zh": "你正一步步掙脫束縛，重新掌握主導權；覺醒之後，自由屬於你。",
+  "love_zh": "關係中存在強烈吸引與依賴，覺察彼此束縛，愛不應是枷鎖。",
+  "love_rev_zh": "你開始掙脫不健康的模式，坦誠面對，關係有望回歸自在。",
+  "career_zh": "當心被物慾或權力沖昏頭腦，堅守原則，別為利益出賣本心。",
+  "career_rev_zh": "釋放被綁住的能量，找回主導權，事業回到自己的軌道。"
  },
  {
   "id": 16,
   "name_en": "The Tower",
   "suit": null,
   "num": 16,
+  "element": "Fire",
   "img": "16_Tower.jpg",
   "kw_en": [
    "sudden upheaval",
@@ -747,6 +844,7 @@
   "career_en": "sudden career disruption, organizational upheaval, job loss or major change, rebuilding professionally",
   "career_rev_en": "averted disruption, delayed collapse, resisting the inevitable, internal upheaval",
   "name_zh": "高塔",
+  "element_zh": "火",
   "kw_zh": [
    "突變",
    "頓悟",
@@ -762,13 +860,18 @@
    "內在劇變"
   ],
   "mean_zh": "根基動搖是一記當頭棒喝，摧毀虛假的建築，纔有重建真實的可能。",
-  "mean_rev_zh": "巨變或許延遲或避過，但內在的震盪仍在；與其抗拒，不如主動調整。"
+  "mean_rev_zh": "巨變或許延遲或避過，但內在的震盪仍在；與其抗拒，不如主動調整。",
+  "love_zh": "關係中隱藏的裂縫將被揭開，劇變雖痛，卻為真實奠定基礎。",
+  "love_rev_zh": "避開了一場大衝突，但內部問題仍在，宜及早溝通修補。",
+  "career_zh": "既定計劃突然生變或項目重整，以平常心應變，根基會更穩。",
+  "career_rev_zh": "巨變未至但暗湧已現，主動調整比被動承受來得輕鬆。"
  },
  {
   "id": 17,
   "name_en": "The Star",
   "suit": null,
   "num": 17,
+  "element": "Air",
   "img": "17_Star.jpg",
   "kw_en": [
    "hope",
@@ -792,6 +895,7 @@
   "career_en": "renewed career hope, inspired work, visibility for your talents, promising long-term direction",
   "career_rev_en": "lost inspiration, self-doubt, discouragement, dimmed direction",
   "name_zh": "星星",
+  "element_zh": "風",
   "kw_zh": [
    "希望",
    "重生",
@@ -807,13 +911,18 @@
    "希望黯淡"
   ],
   "mean_zh": "熬過黑夜之後，星光引路；懷着希望與信念，內心會慢慢癒合。",
-  "mean_rev_zh": "別讓沮喪與自我懷疑遮住星光；重拾信念，希望一直都在。"
+  "mean_rev_zh": "別讓沮喪與自我懷疑遮住星光；重拾信念，希望一直都在。",
+  "love_zh": "療癒與希望的象徵，感情將迎來平靜與信任，放下過往創傷。",
+  "love_rev_zh": "暫時的沮喪或信心不足，別讓過去陰影阻礙新可能。",
+  "career_zh": "夢想逐漸成形，懷着信念耕耘，事業會步入正軌。",
+  "career_rev_zh": "當心沮喪感與自我懷疑，找回初心，你的能力一直都在。"
  },
  {
   "id": 18,
   "name_en": "The Moon",
   "suit": null,
   "num": 18,
+  "element": "Water",
   "img": "18_Moon.jpg",
   "kw_en": [
    "illusion",
@@ -837,6 +946,7 @@
   "career_en": "career uncertainty, unclear workplace dynamics, hidden information, cautious professional intuition",
   "career_rev_en": "clarity returning, hidden information revealed, confusion lifting, released doubt",
   "name_zh": "月亮",
+  "element_zh": "水",
   "kw_zh": [
    "幻象",
    "直覺",
@@ -852,13 +962,18 @@
    "自欺結束"
   ],
   "mean_zh": "眼前的訊息並不完全清晰，相信直覺，謹慎前行，別被表象迷惑。",
-  "mean_rev_zh": "迷霧漸散，真相開始浮現；釋放恐懼之後，你將看得更清。"
+  "mean_rev_zh": "迷霧漸散，真相開始浮現；釋放恐懼之後，你將看得更清。",
+  "love_zh": "關係中存在未說清或未明瞭的部分，相信直覺，讓時間揭曉。",
+  "love_rev_zh": "迷霧漸散，真相浮出，坦誠後關係會比想像中更穩。",
+  "career_zh": "職場訊息不明或人心難測，謹慎行事，別輕信未經證實的消息。",
+  "career_rev_zh": "隱瞞與誤解逐漸消除，看清實況後即可放下心頭大石。"
  },
  {
   "id": 19,
   "name_en": "The Sun",
   "suit": null,
   "num": 19,
+  "element": "Fire",
   "img": "19_Sun.jpg",
   "kw_en": [
    "joy",
@@ -882,6 +997,7 @@
   "career_en": "career success, recognition, professional confidence, rewarding collaboration",
   "career_rev_en": "delayed success, dimmed recognition, burnout, temporary setbacks",
   "name_zh": "太陽",
+  "element_zh": "火",
   "kw_zh": [
    "喜悅",
    "成功",
@@ -897,13 +1013,18 @@
    "成功延後"
   ],
   "mean_zh": "陽光普照，成功與喜悅伴隨而來；帶着自信與活力，盡情發光。",
-  "mean_rev_zh": "一時的陰霾不代表長久；讓自己休息，別讓疲憊遮住了光芒。"
+  "mean_rev_zh": "一時的陰霾不代表長久；讓自己休息，別讓疲憊遮住了光芒。",
+  "love_zh": "感情陽光滿滿，喜悅與自信令關係備受祝福，幸福看得見。",
+  "love_rev_zh": "一時的陰霾或疲憊，休息過後熱情會回來，別輕言放棄。",
+  "career_zh": "事業亮眼、成果被看見，把握光芒，讓名聲助你一臂之力。",
+  "career_rev_zh": "暫時挫折不足以動搖根基，調整心態，成功只是稍後而至。"
  },
  {
   "id": 20,
   "name_en": "Judgement",
   "suit": null,
   "num": 20,
+  "element": "Fire",
   "img": "20_Judgement.jpg",
   "kw_en": [
    "awakening",
@@ -927,6 +1048,7 @@
   "career_en": "career calling, performance review, second chance, decisive professional awakening",
   "career_rev_en": "ignoring the calling, harsh self-judgment, stuck in the past, avoided decision",
   "name_zh": "審判",
+  "element_zh": "火",
   "kw_zh": [
    "覺醒",
    "清算",
@@ -942,13 +1064,18 @@
    "逃避"
   ],
   "mean_zh": "過去的累積迎來清算與重生；聆聽內心的召喚，站起來回應它。",
-  "mean_rev_zh": "別困在自我批判與過去之中；放下嚴苛的評斷，重新出發。"
+  "mean_rev_zh": "別困在自我批判與過去之中；放下嚴苛的評斷，重新出發。",
+  "love_zh": "關係迎來重要轉折與重新開始，放下舊賬，一起迎接新生。",
+  "love_rev_zh": "困在過去評價或自責中，原諒自己與對方，纔有未來。",
+  "career_zh": "過往努力迎來總檢討或晉升召喚，勇敢回應職業生涯的召喚。",
+  "career_rev_zh": "當心被過去挫敗絆住，停止自我批判，行動勝於悔恨。"
  },
  {
   "id": 21,
   "name_en": "The World",
   "suit": null,
   "num": 21,
+  "element": "Earth",
   "img": "21_World.jpg",
   "kw_en": [
    "completion",
@@ -972,6 +1099,7 @@
   "career_en": "career achievement, project completion, professional mastery, international opportunities",
   "career_rev_en": "unfinished business, delayed completion, shortcuts, loose ends",
   "name_zh": "世界",
+  "element_zh": "土",
   "kw_zh": [
    "圓滿",
    "達成",
@@ -987,13 +1115,18 @@
    "爛尾"
   ],
   "mean_zh": "旅程圓滿達成，所有碎片整合為一；享受完成，也準備好迎接下一個循環。",
-  "mean_rev_zh": "尚有未完成的收尾；別急於求成或走捷徑，補齊遺漏纔算真正的圓滿。"
+  "mean_rev_zh": "尚有未完成的收尾；別急於求成或走捷徑，補齊遺漏纔算真正的圓滿。",
+  "love_zh": "關係圓滿穩定，共度里程碑，準備為下一個章節許下新願。",
+  "love_rev_zh": "尚有未完成的心結，補齊溝通與承諾，纔算真正圓滿。",
+  "career_zh": "項目收成、目標達成，事業迎來里程碑式的圓滿。",
+  "career_rev_zh": "收尾未竟或細節遺漏，別急於宣佈完成，完善最後一步。"
  },
  {
   "id": 22,
   "name_en": "Ace of Wands",
   "suit": "wands",
   "num": 1,
+  "element": "Fire",
   "img": "Wands01.jpg",
   "kw_en": [
    "inspiration",
@@ -1017,6 +1150,7 @@
   "career_en": "creative spark, new business venture, inspired career beginning, taking initiative",
   "career_rev_en": "delays, lack of motivation, blocked creativity, false start",
   "name_zh": "權杖王牌",
+  "element_zh": "火",
   "kw_zh": [
    "啟發",
    "新機會",
@@ -1032,13 +1166,18 @@
    "猶豫"
   ],
   "mean_zh": "啟發、新機會、創意火花、熱情、潛力。",
-  "mean_rev_zh": "延遲、虛假開始、缺乏動機、創意受阻、猶豫。"
+  "mean_rev_zh": "延遲、虛假開始、缺乏動機、創意受阻、猶豫。",
+  "love_zh": "激情開始，強烈的化學作用，愛情的興奮，更新的慾望",
+  "love_rev_zh": "虛假的開始，失去火花，猶豫，受阻的激情",
+  "career_zh": "創造火花，新業務，受啟發的職業開始，採取行動",
+  "career_rev_zh": "延遲，缺乏動力，受阻的創造力，虛假的開始"
  },
  {
   "id": 23,
   "name_en": "Two of Wands",
   "suit": "wands",
   "num": 2,
+  "element": "Fire",
   "img": "Wands02.jpg",
   "kw_en": [
    "planning",
@@ -1062,6 +1201,7 @@
   "career_en": "career planning, future expansion, choosing between opportunities, ambitious professional vision",
   "career_rev_en": "poor planning, fear of risk, indecision, limited vision",
   "name_zh": "權杖二",
+  "element_zh": "火",
   "kw_zh": [
    "規劃",
    "未來視野",
@@ -1077,13 +1217,18 @@
    "決斷不力"
   ],
   "mean_zh": "規劃、未來視野、決定、擴張、掌握全局。",
-  "mean_rev_zh": "恐懼未知、保守行動、規劃不周、焦慮、決斷不力。"
+  "mean_rev_zh": "恐懼未知、保守行動、規劃不周、焦慮、決斷不力。",
+  "love_zh": "規劃浪漫未來，考慮關係選擇，共享抱負，決定下一步",
+  "love_rev_zh": "害怕未知，謹慎行事，猶豫不決，焦慮不安",
+  "career_zh": "職業規劃，未來擴張，選擇機會，野心勃勃的專業視野",
+  "career_rev_zh": "規劃不當，害怕風險，猶豫不決，視野有限"
  },
  {
   "id": 24,
   "name_en": "Three of Wands",
   "suit": "wands",
   "num": 3,
+  "element": "Fire",
   "img": "Wands03.jpg",
   "kw_en": [
    "progress",
@@ -1107,6 +1252,7 @@
   "career_en": "business expansion, international work, long-term growth, waiting for results",
   "career_rev_en": "obstacles to plans, delays, limited vision, setbacks",
   "name_zh": "權杖三",
+  "element_zh": "火",
   "kw_zh": [
    "進步",
    "擴張",
@@ -1122,13 +1268,18 @@
    "急躁"
   ],
   "mean_zh": "進步、擴張、遠見、船隻進港、動力。",
-  "mean_rev_zh": "延遲、計劃受阻、視野有限、挫折、急躁。"
+  "mean_rev_zh": "延遲、計劃受阻、視野有限、挫折、急躁。",
+  "love_zh": "關係擴展，等待愛情發展，遠距離聯繫，一起面向未來",
+  "love_rev_zh": "延遲，視野有限，愛情的挫折，不耐煩",
+  "career_zh": "業務擴張，國際工作，長期成長，等待結果",
+  "career_rev_zh": "計劃受阻，延遲，視野有限，挫折"
  },
  {
   "id": 25,
   "name_en": "Four of Wands",
   "suit": "wands",
   "num": 4,
+  "element": "Fire",
   "img": "Wands04.jpg",
   "kw_en": [
    "celebration",
@@ -1152,6 +1303,7 @@
   "career_en": "workplace milestone, successful launch, team celebration, stable professional foundation",
   "career_rev_en": "unstable footing, postponed milestone, transition, weak foundation",
   "name_zh": "權杖四",
+  "element_zh": "火",
   "kw_zh": [
    "慶祝",
    "歸來",
@@ -1167,13 +1319,18 @@
    "基礎不穩"
   ],
   "mean_zh": "慶祝、歸來、里程碑、社區、穩定。",
-  "mean_rev_zh": "家庭不穩定、慶祝延後、過渡期、缺乏支持、基礎不穩。"
+  "mean_rev_zh": "家庭不穩定、慶祝延後、過渡期、缺乏支持、基礎不穩。",
+  "love_zh": "關係慶祝，訂婚，婚姻，創造幸福的家",
+  "love_rev_zh": "慶祝延遲，家庭不穩定，不穩定的基礎，缺乏支持",
+  "career_zh": "工作場所里程碑，成功發布，團隊慶祝，穩定的專業基礎",
+  "career_rev_zh": "不穩定的基礎，里程碑延遲，過渡，基礎薄弱"
  },
  {
   "id": 26,
   "name_en": "Five of Wands",
   "suit": "wands",
   "num": 5,
+  "element": "Fire",
   "img": "Wands05.jpg",
   "kw_en": [
    "conflict",
@@ -1197,6 +1354,7 @@
   "career_en": "workplace competition, conflicting ideas, professional rivalry, productive challenge",
   "career_rev_en": "avoided conflict, released tension, inner competition, resolution near",
   "name_zh": "權杖五",
+  "element_zh": "火",
   "kw_zh": [
    "衝突",
    "競爭",
@@ -1212,13 +1370,18 @@
    "選擇戰鬥"
   ],
   "mean_zh": "衝突、競爭、摩擦、對立自我、分心。",
-  "mean_rev_zh": "避免衝突、解決問題、內在衝突、緊張放鬆、選擇戰鬥。"
+  "mean_rev_zh": "避免衝突、解決問題、內在衝突、緊張放鬆、選擇戰鬥。",
+  "love_zh": "愛情緊張，爭議，爭取注意力的競爭，相沖的慾望",
+  "love_rev_zh": "避免爭議，未解決的緊張，內心爭議，選擇戰鬥",
+  "career_zh": "工作場所競爭，相沖的意見，專業競爭，生產性的挑戰",
+  "career_rev_zh": "避免爭議，放鬆緊張，內心競爭，解決在即"
  },
  {
   "id": 27,
   "name_en": "Six of Wands",
   "suit": "wands",
   "num": 6,
+  "element": "Fire",
   "img": "Wands06.jpg",
   "kw_en": [
    "victory",
@@ -1242,6 +1405,7 @@
   "career_en": "career recognition, promotion, public success, growing leadership credibility",
   "career_rev_en": "lack of recognition, fall from grace, self-doubt, ego inflation",
   "name_zh": "權杖六",
+  "element_zh": "火",
   "kw_zh": [
    "勝利",
    "認可",
@@ -1257,13 +1421,18 @@
    "自我膨脹"
   ],
   "mean_zh": "勝利、認可、成功、自信、公眾讚譽。",
-  "mean_rev_zh": "私人勝利、失敗、自我質疑、缺乏認可、自我膨脹。"
+  "mean_rev_zh": "私人勝利、失敗、自我質疑、缺乏認可、自我膨脹。",
+  "love_zh": "愛情成功，感到被欣賞，關係的公眾認可，贏得某人的愛慕",
+  "love_rev_zh": "缺乏認可，自我質疑，私人奮鬥，受傷的傲慢",
+  "career_zh": "職業認可，晉升，公眾成功，領導力信譽增長",
+  "career_rev_zh": "缺乏認可，失敗，自我質疑，自我膨脹"
  },
  {
   "id": 28,
   "name_en": "Seven of Wands",
   "suit": "wands",
   "num": 7,
+  "element": "Fire",
   "img": "Wands07.jpg",
   "kw_en": [
    "defense",
@@ -1287,6 +1456,7 @@
   "career_en": "defending your position, professional persistence, maintaining boundaries, standing your ground",
   "career_rev_en": "overwhelm, yielding position, exhaustion, defensiveness",
   "name_zh": "權杖七",
+  "element_zh": "火",
   "kw_zh": [
    "防禦",
    "堅守立場",
@@ -1302,13 +1472,18 @@
    "屈服"
   ],
   "mean_zh": "防禦、堅守立場、堅持、信念、保持優勢。",
-  "mean_rev_zh": "被壓倒、放棄立場、疲憊、防禦性、屈服。"
+  "mean_rev_zh": "被壓倒、放棄立場、疲憊、防禦性、屈服。",
+  "love_zh": "保護關係，維持界限，爭取愛情，抵抗外部壓力",
+  "love_rev_zh": "不知所措，放棄地盤，防衛性，疲憊",
+  "career_zh": "保護你的位置，專業堅持，維持界限，堅持立場",
+  "career_rev_zh": "不知所措，放棄位置，疲憊，防衛性"
  },
  {
   "id": 29,
   "name_en": "Eight of Wands",
   "suit": "wands",
   "num": 8,
+  "element": "Fire",
   "img": "Wands08.jpg",
   "kw_en": [
    "swift movement",
@@ -1332,6 +1507,7 @@
   "career_en": "rapid career developments, fast communication, work-related travel, accelerated progress",
   "career_rev_en": "delays, scattered energy, missed timing, frustration",
   "name_zh": "權杖八",
+  "element_zh": "火",
   "kw_zh": [
    "迅速移動",
    "動力",
@@ -1347,13 +1523,18 @@
    "緩慢"
   ],
   "mean_zh": "迅速移動、動力、新聞到來、對齊、快速進步。",
-  "mean_rev_zh": "延遲、挫折、能量分散、錯過時機、緩慢。"
+  "mean_rev_zh": "延遲、挫折、能量分散、錯過時機、緩慢。",
+  "love_zh": "快速的愛情發展，激情溝通，意外的信息，關係動力",
+  "love_rev_zh": "延遲，溝通不暢，錯過時機，動力受阻",
+  "career_zh": "快速的職業發展，快速溝通，與工作相關的旅行，加速進步",
+  "career_rev_zh": "延遲，精力分散，錯過時機，挫折"
  },
  {
   "id": 30,
   "name_en": "Nine of Wands",
   "suit": "wands",
   "num": 9,
+  "element": "Fire",
   "img": "Wands09.jpg",
   "kw_en": [
    "resilience",
@@ -1377,6 +1558,7 @@
   "career_en": "professional resilience, cautious persistence, nearing completion, protecting previous gains",
   "career_rev_en": "burnout, rigid defensiveness, giving up at the end, exhaustion",
   "name_zh": "權杖九",
+  "element_zh": "火",
   "kw_zh": [
    "彈性",
    "最後的抵抗",
@@ -1392,13 +1574,18 @@
    "戰鬥疲憊"
   ],
   "mean_zh": "彈性、最後的抵抗、堅持、謹慎、即將完成。",
-  "mean_rev_zh": "疲憊、偏執、最後放棄、僵化的防禦、戰鬥疲憊。"
+  "mean_rev_zh": "疲憊、偏執、最後放棄、僵化的防禦、戰鬥疲憊。",
+  "love_zh": "情感防禦，關係彈性，謹慎的信任，保護心靈",
+  "love_rev_zh": "戰鬥疲憊，堅硬的防禦，偏執狂，最後放棄",
+  "career_zh": "專業彈性，謹慎的堅持，接近完成，保護既得利益",
+  "career_rev_zh": "燃燒殆盡，堅硬的防禦，最後放棄，疲憊"
  },
  {
   "id": 31,
   "name_en": "Ten of Wands",
   "suit": "wands",
   "num": 10,
+  "element": "Fire",
   "img": "Wands10.jpg",
   "kw_en": [
    "burden",
@@ -1422,6 +1609,7 @@
   "career_en": "overwork, excessive responsibility, burnout risk, need to delegate",
   "career_rev_en": "putting burdens down, delegation, collapse, learning to say no",
   "name_zh": "權杖十",
+  "element_zh": "火",
   "kw_zh": [
    "負擔",
    "過載",
@@ -1437,13 +1625,18 @@
    "學會說不"
   ],
   "mean_zh": "負擔、過載、責任、攜帶過多、最後努力。",
-  "mean_rev_zh": "釋放、委派、放下負擔、崩潰、學會說不。"
+  "mean_rev_zh": "釋放、委派、放下負擔、崩潰、學會說不。",
+  "love_zh": "關係負擔，情感壓力，承擔太多責任，愛情感到要求苛刻",
+  "love_rev_zh": "放棄負擔，在壓力下崩潰，學會說不，委派",
+  "career_zh": "過度工作，過多的責任，燃燒的風險，需要委派",
+  "career_rev_zh": "放下負擔，委派，崩潰，學會說不"
  },
  {
   "id": 32,
   "name_en": "Page of Wands",
   "suit": "wands",
   "num": 11,
+  "element": "Fire",
   "img": "Wands11.jpg",
   "kw_en": [
    "enthusiasm",
@@ -1467,6 +1660,7 @@
   "career_en": "career curiosity, exciting opportunity, learning through action, creative professional news",
   "career_rev_en": "hasty starts, boredom, unreliable news, scattered focus",
   "name_zh": "權杖侍從",
+  "element_zh": "火",
   "kw_zh": [
    "熱情",
    "探索",
@@ -1482,13 +1676,18 @@
    "焦慮"
   ],
   "mean_zh": "熱情、探索、自由精神、新聞、好奇心。",
-  "mean_rev_zh": "能量分散、急於開始、無聊、不可靠的新聞、焦慮。"
+  "mean_rev_zh": "能量分散、急於開始、無聊、不可靠的新聞、焦慮。",
+  "love_zh": "調情，興奮的信息，遊戲性的吸引，對新愛情的好奇心",
+  "love_rev_zh": "興趣分散，無聊，不可靠的信息，焦慮不安",
+  "career_zh": "職業好奇心，興奮的機會，通過行動學習，創意專業新聞",
+  "career_rev_zh": "急於開始，無聊，不可靠的新聞，注意力分散"
  },
  {
   "id": 33,
   "name_en": "Knight of Wands",
   "suit": "wands",
   "num": 12,
+  "element": "Fire",
   "img": "Wands12.jpg",
   "kw_en": [
    "action",
@@ -1512,6 +1711,7 @@
   "career_en": "ambitious action, bold career change, entrepreneurial drive, impulsive professional decisions",
   "career_rev_en": "impulsive decisions, recklessness, delays in action, hot temper",
   "name_zh": "權杖騎士",
+  "element_zh": "火",
   "kw_zh": [
    "行動",
    "冒險",
@@ -1527,13 +1727,18 @@
    "火爆"
   ],
   "mean_zh": "行動、冒險、熱情、果敢追求、魅力。",
-  "mean_rev_zh": "衝動、冒險、熱情分散、行動延遲、火爆。"
+  "mean_rev_zh": "衝動、冒險、熱情分散、行動延遲、火爆。",
+  "love_zh": "激情追求，強烈的化學作用，衝動的愛情，令人興奮但不一貫的情人",
+  "love_rev_zh": "衝動的愛情，熱冷無常，險險為功，激情分散",
+  "career_zh": "野心勃勃的行動，勇敢的職業變革，企業家驅動，衝動的專業決策",
+  "career_rev_zh": "衝動的決策，險險為功，行動延遲，火爆脾氣"
  },
  {
   "id": 34,
   "name_en": "Queen of Wands",
   "suit": "wands",
   "num": 13,
+  "element": "Fire",
   "img": "Wands13.jpg",
   "kw_en": [
    "confidence",
@@ -1557,6 +1762,7 @@
   "career_en": "career confidence, creative leadership, professional charisma, independent success",
   "career_rev_en": "insecurity, burnout, jealousy, dimmed confidence",
   "name_zh": "權杖王后",
+  "element_zh": "火",
   "kw_zh": [
    "自信",
    "溫暖",
@@ -1572,13 +1778,18 @@
    "自信降低"
   ],
   "mean_zh": "自信、溫暖、決心、吸引力、獨立。",
-  "mean_rev_zh": "不安全感、嫉妒、要求性、疲憊、自信降低。"
+  "mean_rev_zh": "不安全感、嫉妒、要求性、疲憊、自信降低。",
+  "love_zh": "對愛情的自信，磁性的吸引，溫暖和激情，獨立伴侶關係",
+  "love_rev_zh": "不安全感，嫉妒，要求能量，信心減弱",
+  "career_zh": "職業自信，創意領導，專業魅力，獨立成功",
+  "career_rev_zh": "不安全感，燃燒殆盡，嫉妒，信心減弱"
  },
  {
   "id": 35,
   "name_en": "King of Wands",
   "suit": "wands",
   "num": 14,
+  "element": "Fire",
   "img": "Wands14.jpg",
   "kw_en": [
    "visionary leadership",
@@ -1602,6 +1813,7 @@
   "career_en": "visionary leadership, business growth, decisive action, inspiring others",
   "career_rev_en": "arrogance, impulsive leadership, tyranny, unrealized vision",
   "name_zh": "權杖國王",
+  "element_zh": "火",
   "kw_zh": [
    "遠見領導",
    "果敢",
@@ -1617,13 +1829,18 @@
    "專橫"
   ],
   "mean_zh": "遠見領導、果敢、創業精神、火之掌控、啟發。",
-  "mean_rev_zh": "傲慢、專制、衝動領導、未實現的視野、專橫。"
+  "mean_rev_zh": "傲慢、專制、衝動領導、未實現的視野、專橫。",
+  "love_zh": "果斷的愛情領導，激情承諾，保護的愛情，自信地追求愛情",
+  "love_rev_zh": "專橫，衝動，傲慢，未實現的承諾",
+  "career_zh": "先見之明領導，業務增長，決定性行動，鼓勵他人",
+  "career_rev_zh": "傲慢，衝動的領導，專橫，未實現的願景"
  },
  {
   "id": 36,
   "name_en": "Ace of Cups",
   "suit": "cups",
   "num": 1,
+  "element": "Water",
   "img": "Cups01.jpg",
   "kw_en": [
    "new love",
@@ -1647,6 +1864,7 @@
   "career_en": "fulfilling opportunity, creative inspiration, emotionally rewarding work, positive workplace beginning",
   "career_rev_en": "unfulfilling opportunity, emotional emptiness at work, blocked inspiration, missed connection",
   "name_zh": "聖杯王牌",
+  "element_zh": "水",
   "kw_zh": [
    "新愛情",
    "情感開始",
@@ -1662,13 +1880,18 @@
    "需要自愛"
   ],
   "mean_zh": "新愛情、情感開始、慈悲、心滿滿、靈性開啟。",
-  "mean_rev_zh": "情感阻塞、空虛、壓抑情感、情感失落、需要自愛。"
+  "mean_rev_zh": "情感阻塞、空虛、壓抑情感、情感失落、需要自愛。",
+  "love_zh": "新愛情，情感開放，滿溢的愛情，感情加深",
+  "love_rev_zh": "受阻的情感，壓抑的情感，情感失落，需要自我愛",
+  "career_zh": "滿足的機會，創意啟發，情感上獲益的工作，積極的工作開始",
+  "career_rev_zh": "不滿足的機會，工作中的情感空白，受阻的啟發，錯過連結"
  },
  {
   "id": 37,
   "name_en": "Two of Cups",
   "suit": "cups",
   "num": 2,
+  "element": "Water",
   "img": "Cups02.jpg",
   "kw_en": [
    "partnership",
@@ -1692,6 +1915,7 @@
   "career_en": "successful partnership, strong collaboration, professional agreement, shared career goals",
   "career_rev_en": "broken partnership, tension, misaligned goals, poor collaboration",
   "name_zh": "聖杯二",
+  "element_zh": "水",
   "kw_zh": [
    "伴侶關係",
    "相互吸引",
@@ -1707,13 +1931,18 @@
    "需要自我伴侶"
   ],
   "mean_zh": "伴侶關係、相互吸引、連接、和諧、平等聯姻。",
-  "mean_rev_zh": "不平衡、關係破裂、緊張、溝通不良、需要自我伴侶。"
+  "mean_rev_zh": "不平衡、關係破裂、緊張、溝通不良、需要自我伴侶。",
+  "love_zh": "雙方的愛情，情感夥伴關係，共享吸引，平衡的連結",
+  "love_rev_zh": "不平衡，破裂的連結，緊張，溝通不暢",
+  "career_zh": "成功的夥伴關係，強大的合作，專業協議，共享職業目標",
+  "career_rev_zh": "破裂的夥伴關係，緊張，目標不對齊，合作不佳"
  },
  {
   "id": 38,
   "name_en": "Three of Cups",
   "suit": "cups",
   "num": 3,
+  "element": "Water",
   "img": "Cups03.jpg",
   "kw_en": [
    "celebration",
@@ -1737,6 +1966,7 @@
   "career_en": "teamwork, professional networking, workplace celebration, supportive colleagues",
   "career_rev_en": "isolation from the team, gossip, overindulgence, workplace cliques",
   "name_zh": "聖杯三",
+  "element_zh": "水",
   "kw_zh": [
    "慶祝",
    "友誼",
@@ -1752,13 +1982,18 @@
    "過度"
   ],
   "mean_zh": "慶祝、友誼、社區、共享快樂、創意合作。",
-  "mean_rev_zh": "過度沉溺、第三者介入、與朋友疏遠、流言蜚語、過度。"
+  "mean_rev_zh": "過度沉溺、第三者介入、與朋友疏遠、流言蜚語、過度。",
+  "love_zh": "約會和社交，愉快的重逢，與夥伴慶祝，友誼變得浪漫",
+  "love_rev_zh": "第三者幹擾，孤立，流言蜚語，過度沉溺",
+  "career_zh": "團隊合作，專業網絡，工作場所慶祝，支持性的同事",
+  "career_rev_zh": "與團隊孤立，流言蜚語，過度沉溺，工作場所小圈子"
  },
  {
   "id": 39,
   "name_en": "Four of Cups",
   "suit": "cups",
   "num": 4,
+  "element": "Water",
   "img": "Cups04.jpg",
   "kw_en": [
    "apathy",
@@ -1782,6 +2017,7 @@
   "career_en": "career dissatisfaction, workplace boredom, overlooked opportunity, need for renewed motivation",
   "career_rev_en": "renewed motivation, accepting an opportunity, re-engagement, fresh interest",
   "name_zh": "聖杯四",
+  "element_zh": "水",
   "kw_zh": [
    "冷漠",
    "沉思",
@@ -1797,13 +2033,18 @@
    "開放"
   ],
   "mean_zh": "冷漠、沉思、斷絕連接、錯過機會、重新評估。",
-  "mean_rev_zh": "重新興趣、接受機會、從抽離中走出、新動機、開放。"
+  "mean_rev_zh": "重新興趣、接受機會、從抽離中走出、新動機、開放。",
+  "love_zh": "情感抽離，愛情不滿足，忽視機會，感到疏遠",
+  "love_rev_zh": "重燃興趣，接受提議，從抽離中走出，開放",
+  "career_zh": "職業不滿足，工作場所無聊，忽視機會，需要新的動力",
+  "career_rev_zh": "新的動力，接受機會，重新參與，新興興趣"
  },
  {
   "id": 40,
   "name_en": "Five of Cups",
   "suit": "cups",
   "num": 5,
+  "element": "Water",
   "img": "Cups05.jpg",
   "kw_en": [
    "loss",
@@ -1827,6 +2068,7 @@
   "career_en": "professional disappointment, missed opportunity, career regret, learning from setbacks",
   "career_rev_en": "moving on from setbacks, acceptance, learning from loss, recovery",
   "name_zh": "聖杯五",
+  "element_zh": "水",
   "kw_zh": [
    "損失",
    "傷痛",
@@ -1842,13 +2084,18 @@
    "癒合"
   ],
   "mean_zh": "損失、傷痛、悔恨、專注於已失去的事物、失望。",
-  "mean_rev_zh": "接受、繼續前行、寬恕、看到所留下的事物、癒合。"
+  "mean_rev_zh": "接受、繼續前行、寬恕、看到所留下的事物、癒合。",
+  "love_zh": "心碎，愛情中的悔恨，哀悼一段關係，著重於情感上的失落",
+  "love_rev_zh": "接受，繼續前行，原諒，療傷",
+  "career_zh": "職業失望，錯過機會，職業悔恨，從失敗中學習",
+  "career_rev_zh": "從失敗中走出，接受，從失敗中學習，恢復"
  },
  {
   "id": 41,
   "name_en": "Six of Cups",
   "suit": "cups",
   "num": 6,
+  "element": "Water",
   "img": "Cups06.jpg",
   "kw_en": [
    "nostalgia",
@@ -1872,6 +2119,7 @@
   "career_en": "returning to a former career, familiar workplace, mentoring others, nostalgia influencing career choices",
   "career_rev_en": "clinging to the familiar, releasing old roles, nostalgia fading, moving forward",
   "name_zh": "聖杯六",
+  "element_zh": "水",
   "kw_zh": [
    "懷舊",
    "童年",
@@ -1887,13 +2135,18 @@
    "放棄舊關係"
   ],
   "mean_zh": "懷舊、童年、無邪、重逢、簡單的善意。",
-  "mean_rev_zh": "留戀過去、玫瑰色記憶、離開家鄉、成長、放棄舊關係。"
+  "mean_rev_zh": "留戀過去、玫瑰色記憶、離開家鄉、成長、放棄舊關係。",
+  "love_zh": "過去的愛情，羈絆的浪漫懷念，與前任重逢，純粹的親情",
+  "love_rev_zh": "懶惰於過去，理想化的記憶，釋放舊關係，成長",
+  "career_zh": "回歸舊職業，熟悉的職場，輔導他人，懷舊影響職業選擇",
+  "career_rev_zh": "依戀於熟悉的事物，釋放舊角色，懷舊逐漸消逝，向前行進"
  },
  {
   "id": 42,
   "name_en": "Seven of Cups",
   "suit": "cups",
   "num": 7,
+  "element": "Water",
   "img": "Cups07.jpg",
   "kw_en": [
    "choices",
@@ -1917,6 +2170,7 @@
   "career_en": "many career options, unrealistic expectations, scattered focus, choosing a practical path",
   "career_rev_en": "clear choice, focus returning, cutting through options, realism",
   "name_zh": "聖杯七",
+  "element_zh": "水",
   "kw_zh": [
    "選擇",
    "幻想",
@@ -1932,13 +2186,18 @@
    "現實主義"
   ],
   "mean_zh": "選擇、幻想、幻象、一廂情願、選項。",
-  "mean_rev_zh": "清晰、做出決定、穿透幻象、壓倒性的結束、現實主義。"
+  "mean_rev_zh": "清晰、做出決定、穿透幻象、壓倒性的結束、現實主義。",
+  "love_zh": "愛情選擇，幻想與理想化，意圖不明確，難以選擇伴侶",
+  "love_rev_zh": "清晰，決定已定，幻覺消逝，現實主義",
+  "career_zh": "多種職業選擇，不切實際的期望，注意力分散，選擇實際的道路",
+  "career_rev_zh": "明確的選擇，注意力回歸，排除選擇，現實主義"
  },
  {
   "id": 43,
   "name_en": "Eight of Cups",
   "suit": "cups",
   "num": 8,
+  "element": "Water",
   "img": "Cups08.jpg",
   "kw_en": [
    "walking away",
@@ -1962,6 +2221,7 @@
   "career_en": "leaving an unfulfilling job, seeking meaningful work, career transition, moving beyond stagnation",
   "career_rev_en": "fear of leaving, staying in stagnation, avoidance, unfinished transition",
   "name_zh": "聖杯八",
+  "element_zh": "水",
   "kw_zh": [
    "離開",
    "尋求更深層的意義",
@@ -1977,13 +2237,18 @@
    "未完成的離開"
   ],
   "mean_zh": "離開、尋求更深層的意義、放棄、幻滅、探索。",
-  "mean_rev_zh": "害怕離開、返回、逃避、逗留過久、未完成的離開。"
+  "mean_rev_zh": "害怕離開、返回、逃避、逗留過久、未完成的離開。",
+  "love_zh": "離開一段關係，尋求更深層的滿足，情感抽離，離開不再滿足的事物",
+  "love_rev_zh": "離開的恐懼，停留過久，逃避，未完成的離開",
+  "career_zh": "離開不滿足的工作，尋求有意義的工作，職業轉變，超越停滯",
+  "career_rev_zh": "離開的恐懼，停留在停滯狀態，逃避，未完成的轉變"
  },
  {
   "id": 44,
   "name_en": "Nine of Cups",
   "suit": "cups",
   "num": 9,
+  "element": "Water",
   "img": "Cups09.jpg",
   "kw_en": [
    "wishes fulfilled",
@@ -2007,6 +2272,7 @@
   "career_en": "career satisfaction, desired professional outcome, rewarding achievement, enjoying success",
   "career_rev_en": "hollow success, unmet goals, complacency, inner dissatisfaction",
   "name_zh": "聖杯九",
+  "element_zh": "水",
   "kw_zh": [
    "願望實現",
    "滿足",
@@ -2022,13 +2288,18 @@
    "內在缺乏"
   ],
   "mean_zh": "願望實現、滿足、滿意、快樂、感謝。",
-  "mean_rev_zh": "表面快樂、貪婪、未實現的願望、自滿、內在缺乏。"
+  "mean_rev_zh": "表面快樂、貪婪、未實現的願望、自滿、內在缺乏。",
+  "love_zh": "愛情滿足，情感快樂，收到期望的親情，享受愛情",
+  "love_rev_zh": "表面滿足，未滿足的願望，內在缺乏，自滿",
+  "career_zh": "職業滿足，期望的職業結果，獎勵性的成就，享受成功",
+  "career_rev_zh": "虛假的成功，未滿足的目標，自滿，內在的不滿"
  },
  {
   "id": 45,
   "name_en": "Ten of Cups",
   "suit": "cups",
   "num": 10,
+  "element": "Water",
   "img": "Cups10.jpg",
   "kw_en": [
    "lasting happiness",
@@ -2052,6 +2323,7 @@
   "career_en": "harmonious workplace, meaningful career, supportive team, long-term professional fulfillment",
   "career_rev_en": "disconnection at work, broken team harmony, misaligned values, strain",
   "name_zh": "聖杯十",
+  "element_zh": "水",
   "kw_zh": [
    "持久的快樂",
    "家庭和諧",
@@ -2067,13 +2339,18 @@
    "緊張的關係"
   ],
   "mean_zh": "持久的快樂、家庭和諧、情感滿足、愛的實現、屬於。",
-  "mean_rev_zh": "家庭不和、和諧破裂、不切實際的理想、家庭疏離、緊張的關係。"
+  "mean_rev_zh": "家庭不和、和諧破裂、不切實際的理想、家庭疏離、緊張的關係。",
+  "love_zh": "持久的幸福，情感安全，和諧的家庭生活，滿足的伴侶關係",
+  "love_rev_zh": "家庭不和，破裂的和諧，緊張的關係，不切實的理想",
+  "career_zh": "和諧的工作場所，有意義的職業，支持性的團隊，長期的職業滿足",
+  "career_rev_zh": "工作中的疏離，破裂的團隊和諧，價值觀不對齊，緊張"
  },
  {
   "id": 46,
   "name_en": "Page of Cups",
   "suit": "cups",
   "num": 11,
+  "element": "Water",
   "img": "Cups11.jpg",
   "kw_en": [
    "emotional openness",
@@ -2097,6 +2374,7 @@
   "career_en": "creative study, encouraging career news, beginner opportunity, intuitive professional idea",
   "career_rev_en": "blocked creativity, moody messages, immaturity, escapism",
   "name_zh": "聖杯侍從",
+  "element_zh": "水",
   "kw_zh": [
    "情感開放",
    "創造性信息",
@@ -2112,13 +2390,18 @@
    "過度敏感"
   ],
   "mean_zh": "情感開放、創造性信息、直覺萌芽、敏感、甜蜜的驚喜。",
-  "mean_rev_zh": "情感不成熟、情緒化、創造力受阻、逃避主義、過度敏感。"
+  "mean_rev_zh": "情感不成熟、情緒化、創造力受阻、逃避主義、過度敏感。",
+  "love_zh": "甜美的愛情信息，純粹的愛慕，情感脆弱，意外的親情表達",
+  "love_rev_zh": "情感不成熟，情緒化，過度敏感，逃避現實",
+  "career_zh": "創意學習，鼓勵職業新聞，初學者機會，直覺的職業想法",
+  "career_rev_zh": "創造力受阻，情緒化的信息，不成熟，逃避現實"
  },
  {
   "id": 47,
   "name_en": "Knight of Cups",
   "suit": "cups",
   "num": 12,
+  "element": "Water",
   "img": "Cups12.jpg",
   "kw_en": [
    "romance",
@@ -2142,6 +2425,7 @@
   "career_en": "following a vocation, persuasive proposal, creative profession, idealistic career move",
   "career_rev_en": "unrealistic proposals, moodiness, disillusionment, wavering commitment",
   "name_zh": "聖杯騎士",
+  "element_zh": "水",
   "kw_zh": [
    "羅曼蒂克",
    "魅力",
@@ -2157,13 +2441,18 @@
    "心靈與理智失衡"
   ],
   "mean_zh": "羅曼蒂克、魅力、邀請、追隨心靈、理想主義。",
-  "mean_rev_zh": "不切實際的承諾、情緒化、幻滅、奉承、心靈與理智失衡。"
+  "mean_rev_zh": "不切實際的承諾、情緒化、幻滅、奉承、心靈與理智失衡。",
+  "love_zh": "愛情求婚，真摯的追求，魅力與親情，追隨心之所向",
+  "love_rev_zh": "不切實的承諾，情緒化，幻滅，空洞的魅力",
+  "career_zh": "追隨職業，說服性的提議，創意職業，理想主義的職業行動",
+  "career_rev_zh": "不切實的提議，情緒化，幻滅，承諾猶豫"
  },
  {
   "id": 48,
   "name_en": "Queen of Cups",
   "suit": "cups",
   "num": 13,
+  "element": "Water",
   "img": "Cups13.jpg",
   "kw_en": [
    "compassion",
@@ -2187,6 +2476,7 @@
   "career_en": "empathetic leadership, caring profession, emotional intelligence, supportive workplace",
   "career_rev_en": "emotional overwhelm, poor boundaries, over-giving, depletion",
   "name_zh": "聖杯王后",
+  "element_zh": "水",
   "kw_zh": [
    "慈悲",
    "情感深度",
@@ -2202,13 +2492,18 @@
    "情感操控"
   ],
   "mean_zh": "慈悲、情感深度、直覺、滋養的出現、同理心。",
-  "mean_rev_zh": "情感過度負擔、互相依賴、犧牲精神、界限模糊、情感操控。"
+  "mean_rev_zh": "情感過度負擔、互相依賴、犧牲精神、界限模糊、情感操控。",
+  "love_zh": "深層的情感支持，直覺的愛，同情心，強烈的情感連結",
+  "love_rev_zh": "情感過度，互相依賴，邊界模糊，犧牲精神",
+  "career_zh": "同理心領導，關心的職業，情感智能，支持性的工作場所",
+  "career_rev_zh": "情感過度，邊界模糊，過度付出，精力耗盡"
  },
  {
   "id": 49,
   "name_en": "King of Cups",
   "suit": "cups",
   "num": 14,
+  "element": "Water",
   "img": "Cups14.jpg",
   "kw_en": [
    "emotional mastery",
@@ -2232,6 +2527,7 @@
   "career_en": "diplomatic leadership, calm management, emotional maturity, balancing people and results",
   "career_rev_en": "emotional volatility, coldness, manipulation, poor composure",
   "name_zh": "聖杯國王",
+  "element_zh": "水",
   "kw_zh": [
    "情感掌控",
    "冷靜的權威",
@@ -2247,13 +2543,18 @@
    "情感波動"
   ],
   "mean_zh": "情感掌控、冷靜的權威、外交、心靈與理智的平衡、明智的建議。",
-  "mean_rev_zh": "壓抑的情感、冷漠、操控、權力中的情緒化、情感波動。"
+  "mean_rev_zh": "壓抑的情感、冷漠、操控、權力中的情緒化、情感波動。",
+  "love_zh": "成熟的愛情，穩定的親情，平衡的感受，同情心強的伴侶關係",
+  "love_rev_zh": "壓抑的情感，冷淡，情緒化，情感波動",
+  "career_zh": "外交領導，冷靜的管理，情感成熟，平衡人與結果",
+  "career_rev_zh": "情感波動，冷淡，操控，缺乏自制"
  },
  {
   "id": 50,
   "name_en": "Ace of Swords",
   "suit": "swords",
   "num": 1,
+  "element": "Air",
   "img": "Swords01.jpg",
   "kw_en": [
    "clarity",
@@ -2277,6 +2578,7 @@
   "career_en": "breakthrough idea, decisive communication, intellectual clarity, new professional strategy",
   "career_rev_en": "confusion, clouded strategy, harsh communication, misused intellect",
   "name_zh": "寶劍王牌",
+  "element_zh": "風",
   "kw_zh": [
    "清晰",
    "突破",
@@ -2292,13 +2594,18 @@
    "虛假的清晰"
   ],
   "mean_zh": "清晰、突破、真相、新想法、心智鋒利。",
-  "mean_rev_zh": "混淆、判斷混亂、智力的誤用、尖銳的言語、虛假的清晰。"
+  "mean_rev_zh": "混淆、判斷混亂、智力的誤用、尖銳的言語、虛假的清晰。",
+  "love_zh": "誠實的溝通，關係清晰，揭露真相，決定性愛情對話",
+  "love_rev_zh": "判斷混亂，尖銳的言語，溝通不良，虛假的清晰",
+  "career_zh": "突破性想法，決定性溝通，智力清晰，新的職業策略",
+  "career_rev_zh": "混亂，策略混亂，尖銳的溝通，智力被誤用"
  },
  {
   "id": 51,
   "name_en": "Two of Swords",
   "suit": "swords",
   "num": 2,
+  "element": "Air",
   "img": "Swords02.jpg",
   "kw_en": [
    "stalemate",
@@ -2322,6 +2629,7 @@
   "career_en": "career indecision, stalled negotiation, avoiding a professional choice, limited information",
   "career_rev_en": "decision forced, stalemate breaking, revealed information, anxiety",
   "name_zh": "寶劍二",
+  "element_zh": "風",
   "kw_zh": [
    "僵局",
    "困難的選擇",
@@ -2337,13 +2645,18 @@
    "否認的釋放"
   ],
   "mean_zh": "僵局、困難的選擇、逃避、受阻的情感、休戰。",
-  "mean_rev_zh": "被迫做出決定、信息揭露、僵局打破、焦慮、否認的釋放。"
+  "mean_rev_zh": "被迫做出決定、信息揭露、僵局打破、焦慮、否認的釋放。",
+  "love_zh": "愛情決斷不決，情感僵局，避免決定，溝通受阻",
+  "love_rev_zh": "被迫決定，焦慮，信息揭露，結束否認",
+  "career_zh": "職業決斷不決，僵局談判，避免職業選擇，信息有限",
+  "career_rev_zh": "決定被迫，僵局打破，信息揭露，焦慮"
  },
  {
   "id": 52,
   "name_en": "Three of Swords",
   "suit": "swords",
   "num": 3,
+  "element": "Air",
   "img": "Swords03.jpg",
   "kw_en": [
    "heartbreak",
@@ -2367,6 +2680,7 @@
   "career_en": "professional disappointment, workplace conflict, job rejection, difficult feedback",
   "career_rev_en": "recovery from setbacks, releasing resentment, healing conflict, moving on",
   "name_zh": "寶劍三",
+  "element_zh": "風",
   "kw_zh": [
    "心碎",
    "痛苦的真相",
@@ -2382,13 +2696,18 @@
    "舊傷口再次浮現"
   ],
   "mean_zh": "心碎、痛苦的真相、傷痛、悲哀、分離。",
-  "mean_rev_zh": "癒合心碎、寬恕、釋放痛苦、恢復、舊傷口再次浮現。"
+  "mean_rev_zh": "癒合心碎、寬恕、釋放痛苦、恢復、舊傷口再次浮現。",
+  "love_zh": "心碎，分離，痛苦的真相，情感背叛",
+  "love_rev_zh": "療傷心碎，原諒，釋放痛苦，舊傷口再次浮現",
+  "career_zh": "職業失望，工作場所衝突，工作拒絕，困難的回饋",
+  "career_rev_zh": "從失敗中恢復，釋放怨恨，療傷衝突，繼續前行"
  },
  {
   "id": 53,
   "name_en": "Four of Swords",
   "suit": "swords",
   "num": 4,
+  "element": "Air",
   "img": "Swords04.jpg",
   "kw_en": [
    "rest",
@@ -2412,6 +2731,7 @@
   "career_en": "career break, recovery from burnout, strategic pause, preparing your next move",
   "career_rev_en": "burnout, restlessness, forced pause, returning to action",
   "name_zh": "寶劍四",
+  "element_zh": "風",
   "kw_zh": [
    "休息",
    "恢復",
@@ -2427,13 +2747,18 @@
    "忽略疲勞"
   ],
   "mean_zh": "休息、恢復、撤退、靜止、充電。",
-  "mean_rev_zh": "過度疲勞、焦慮不安、被迫休息、返回行動、忽略疲勞。"
+  "mean_rev_zh": "過度疲勞、焦慮不安、被迫休息、返回行動、忽略疲勞。",
+  "love_zh": "在關係中保持距離，情感恢復，暫時分離，反思的時刻",
+  "love_rev_zh": "焦慮不安，被迫休息，返回過早，忽略疲憊",
+  "career_zh": "職業休息，從燃燒中恢復，策略性暫停，準備下一步行動",
+  "career_rev_zh": "燃燒，焦慮不安，被迫休息，返回行動"
  },
  {
   "id": 54,
   "name_en": "Five of Swords",
   "suit": "swords",
   "num": 5,
+  "element": "Air",
   "img": "Swords05.jpg",
   "kw_en": [
    "hollow victory",
@@ -2457,6 +2782,7 @@
   "career_en": "workplace conflict, unethical competition, damaged professional trust, hollow victory",
   "career_rev_en": "making amends, releasing conflict, lingering tension, lesson learned",
   "name_zh": "寶劍五",
+  "element_zh": "風",
   "kw_zh": [
    "空洞的勝利",
    "衝突",
@@ -2472,13 +2798,18 @@
    "學到教訓"
   ],
   "mean_zh": "空洞的勝利、衝突、不惜一切代價的勝利、不和、自私。",
-  "mean_rev_zh": "和解、補償、釋放怨恨、持久的怨恨、學到教訓。"
+  "mean_rev_zh": "和解、補償、釋放怨恨、持久的怨恨、學到教訓。",
+  "love_zh": "關係衝突，傷人的溝通，自私行為，以失去親密為代價的勝利",
+  "love_rev_zh": "和解，補償，持久的怨恨，學到教訓",
+  "career_zh": "工作場所衝突，不道德的競爭，損害專業信任，虛假的勝利",
+  "career_rev_zh": "補償，釋放衝突，持久的緊張，學到教訓"
  },
  {
   "id": 55,
   "name_en": "Six of Swords",
   "suit": "swords",
   "num": 6,
+  "element": "Air",
   "img": "Swords06.jpg",
   "kw_en": [
    "transition",
@@ -2502,6 +2833,7 @@
   "career_en": "moving to a better role, gradual career recovery, relocation for work, leaving difficulties behind",
   "career_rev_en": "resisting change, rough transition, unfinished business, stuck baggage",
   "name_zh": "寶劍六",
+  "element_zh": "風",
   "kw_zh": [
    "過渡",
    "繼續前行",
@@ -2517,13 +2849,18 @@
    "沉重的行李"
   ],
   "mean_zh": "過渡、繼續前行、平靜的水面、過渡、漸進的癒合。",
-  "mean_rev_zh": "抵抗過渡、未完成的事務、艱難的過渡、返回麻煩、沉重的行李。"
+  "mean_rev_zh": "抵抗過渡、未完成的事務、艱難的過渡、返回麻煩、沉重的行李。",
+  "love_zh": "從衝突中走出，情感轉變，共同療傷，放下關係困難",
+  "love_rev_zh": "抵抗轉變，未完成的事務，返回困難，陷入困境",
+  "career_zh": "轉移到更好的角色，逐漸的職業恢復，為工作遷移，放下困難",
+  "career_rev_zh": "抵抗變化，困難的轉變，未完成的事務，沉重的行李"
  },
  {
   "id": 56,
   "name_en": "Seven of Swords",
   "suit": "swords",
   "num": 7,
+  "element": "Air",
   "img": "Swords07.jpg",
   "kw_en": [
    "deception",
@@ -2547,6 +2884,7 @@
   "career_en": "strategic planning, office politics, working independently, questionable professional tactics",
   "career_rev_en": "exposure of tactics, coming clean, conscience, revealed deception",
   "name_zh": "寶劍七",
+  "element_zh": "風",
   "kw_zh": [
    "欺騙",
    "策略",
@@ -2562,13 +2900,18 @@
    "自我欺騙被揭穿"
   ],
   "mean_zh": "欺騙、策略、獨自行動、逃避責任、狡猾。",
-  "mean_rev_zh": "坦白、良心、揭露、清白、自我欺騙被揭穿。"
+  "mean_rev_zh": "坦白、良心、揭露、清白、自我欺騙被揭穿。",
+  "love_zh": "愛情中的祕密，愛情中的不誠實，避免承諾，隱藏的動機",
+  "love_rev_zh": "坦白，清白，揭露的祕密，良心",
+  "career_zh": "策略規劃，辦公室政治，獨立工作，可疑的專業策略",
+  "career_rev_zh": "策略揭露，清白，良心，揭露的欺騙"
  },
  {
   "id": 57,
   "name_en": "Eight of Swords",
   "suit": "swords",
   "num": 8,
+  "element": "Air",
   "img": "Swords08.jpg",
   "kw_en": [
    "feeling trapped",
@@ -2592,6 +2935,7 @@
   "career_en": "feeling trapped at work, professional self-doubt, limited options, need for a new perspective",
   "career_rev_en": "new perspective, breaking free, self-empowerment, taking responsibility",
   "name_zh": "寶劍八",
+  "element_zh": "風",
   "kw_zh": [
    "感到束縛",
    "自我限制",
@@ -2607,13 +2951,18 @@
    "承擔責任"
   ],
   "mean_zh": "感到束縛、自我限制、受害者心態、心理牢籠、麻痺。",
-  "mean_rev_zh": "解放、新視角、自我賦權、眼罩被移除、承擔責任。"
+  "mean_rev_zh": "解放、新視角、自我賦權、眼罩被移除、承擔責任。",
+  "love_zh": "在關係中感到束縛，離開的恐懼，對愛情的限制性信念，情感無力感",
+  "love_rev_zh": "解放，新觀點，自我賦權，釋放限制性信念",
+  "career_zh": "在工作中感到束縛，職業自我質疑，選擇有限，需要新觀點",
+  "career_rev_zh": "新觀點，脫離束縛，自我賦權，承擔責任"
  },
  {
   "id": 58,
   "name_en": "Nine of Swords",
   "suit": "swords",
   "num": 9,
+  "element": "Air",
   "img": "Swords09.jpg",
   "kw_en": [
    "anxiety",
@@ -2637,6 +2986,7 @@
   "career_en": "job anxiety, fear of failure, work-related stress, overthinking career problems",
   "career_rev_en": "easing worry, facing fears, seeking help, recovery from stress",
   "name_zh": "寶劍九",
+  "element_zh": "風",
   "kw_zh": [
    "焦慮",
    "失眠之夜",
@@ -2652,13 +3002,18 @@
    "從絕望中恢復"
   ],
   "mean_zh": "焦慮、失眠之夜、擔心、恐懼、心理痛苦。",
-  "mean_rev_zh": "緩解焦慮、面對恐懼、尋求幫助、視角回歸、從絕望中恢復。"
+  "mean_rev_zh": "緩解焦慮、面對恐懼、尋求幫助、視角回歸、從絕望中恢復。",
+  "love_zh": "關係焦慮，恐懼被拒絕，內疚或悔恨，對愛情的過度思考",
+  "love_rev_zh": "緩解焦慮，面對恐懼，尋求支持，觀點回歸",
+  "career_zh": "工作焦慮，恐懼失敗，與工作相關的壓力，對職業問題的過度思考",
+  "career_rev_zh": "緩解擔憂，面對恐懼，尋求幫助，從壓力中恢復"
  },
  {
   "id": 59,
   "name_en": "Ten of Swords",
   "suit": "swords",
   "num": 10,
+  "element": "Air",
   "img": "Swords10.jpg",
   "kw_en": [
    "painful ending",
@@ -2682,6 +3037,7 @@
   "career_en": "job ending, failed project, professional betrayal, final career closure",
   "career_rev_en": "recovery, rising again, surviving closure, slow rebuilding",
   "name_zh": "寶劍十",
+  "element_zh": "風",
   "kw_zh": [
    "痛苦的結束",
    "絕望的谷底",
@@ -2697,13 +3053,18 @@
    "拒絕最後的教訓"
   ],
   "mean_zh": "痛苦的結束、絕望的谷底、背叛、崩潰、最壞的時候已經過去。",
-  "mean_rev_zh": "恢復、再次站起來、度過結束、舊傷口合併、拒絕最後的教訓。"
+  "mean_rev_zh": "恢復、再次站起來、度過結束、舊傷口合併、拒絕最後的教訓。",
+  "love_zh": "痛苦的結束，背叛，關係崩潰，接受一段浪漫篇章的結束",
+  "love_rev_zh": "恢復，再次崛起，從結束中生存，拒絕最後的教訓",
+  "career_zh": "工作結束，失敗的項目，專業背叛，最後的職業關閉",
+  "career_rev_zh": "恢復，再次崛起，從關閉中生存，緩慢重建"
  },
  {
   "id": 60,
   "name_en": "Page of Swords",
   "suit": "swords",
   "num": 11,
+  "element": "Air",
   "img": "Swords11.jpg",
   "kw_en": [
    "curiosity",
@@ -2727,6 +3088,7 @@
   "career_en": "professional research, sharp communication, new learning, monitoring opportunities",
   "career_rev_en": "scattered thinking, gossip, hasty communication, spying",
   "name_zh": "寶劍侍從",
+  "element_zh": "風",
   "kw_zh": [
    "好奇心",
    "警覺性",
@@ -2742,13 +3104,18 @@
    "空談"
   ],
   "mean_zh": "好奇心、警覺性、新想法、精神活力、尋求真理。",
-  "mean_rev_zh": "八卦、急躁言語、思緒散亂、偷看、空談。"
+  "mean_rev_zh": "八卦、急躁言語、思緒散亂、偷看、空談。",
+  "love_zh": "好奇的溝通，保持距離觀望，謹慎的興趣，質疑伴侶的意圖",
+  "love_rev_zh": "急於言辭，流言蜚語，思緒散亂，空談無實際",
+  "career_zh": "專業研究，尖銳的溝通，新學習，監控機會",
+  "career_rev_zh": "思緒散亂，流言蜚語，急於溝通，暗中監視"
  },
  {
   "id": 61,
   "name_en": "Knight of Swords",
   "suit": "swords",
   "num": 12,
+  "element": "Air",
   "img": "Swords12.jpg",
   "kw_en": [
    "decisive action",
@@ -2772,6 +3139,7 @@
   "career_en": "fast career decisions, forceful ambition, intense debate, rushing into action",
   "career_rev_en": "recklessness, aggression, rushing past details, burnout sprint",
   "name_zh": "寶劍騎士",
+  "element_zh": "風",
   "kw_zh": [
    "果斷行動",
    "野心",
@@ -2787,13 +3155,18 @@
    "言語攻擊"
   ],
   "mean_zh": "果斷行動、野心、直接性、衝刺前進、知識驅動。",
-  "mean_rev_zh": "冒險、攻擊性、忽略細節、燃盡的衝刺、言語攻擊。"
+  "mean_rev_zh": "冒險、攻擊性、忽略細節、燃盡的衝刺、言語攻擊。",
+  "love_zh": "直接追求浪漫，激烈對話，急於投入關係，衝動言辭引發衝突",
+  "love_rev_zh": "冒險，言辭衝突，急於投入，燃盡精力",
+  "career_zh": "快速職業決策，強烈的野心，激烈辯論，急於行動",
+  "career_rev_zh": "冒險，攻擊性，忽略細節，燃盡精力"
  },
  {
   "id": 62,
   "name_en": "Queen of Swords",
   "suit": "swords",
   "num": 13,
+  "element": "Air",
   "img": "Swords13.jpg",
   "kw_en": [
    "clear judgment",
@@ -2817,6 +3190,7 @@
   "career_en": "objective judgment, clear professional boundaries, independent expertise, direct communication",
   "career_rev_en": "cynicism, harsh criticism, isolation, cold judgment",
   "name_zh": "寶劍王后",
+  "element_zh": "風",
   "kw_zh": [
    "明確判斷",
    "獨立性",
@@ -2832,13 +3206,18 @@
    "懷疑主義"
   ],
   "mean_zh": "明確判斷、獨立性、誠實溝通、界限、經驗智慧。",
-  "mean_rev_zh": "冷漠、苦澀、嚴厲批評、孤立、懷疑主義。"
+  "mean_rev_zh": "冷漠、苦澀、嚴厲批評、孤立、懷疑主義。",
+  "love_zh": "清晰的界限，情感獨立，誠實的期望，明辨關係選擇",
+  "love_rev_zh": "冷淡，苦澀，嚴厲批評，孤立",
+  "career_zh": "客觀判斷，清晰的專業界限，獨立專業，直接溝通",
+  "career_rev_zh": "冷嘲熱諷，嚴厲批評，孤立，冷淡判斷"
  },
  {
   "id": 63,
   "name_en": "King of Swords",
   "suit": "swords",
   "num": 14,
+  "element": "Air",
   "img": "Swords14.jpg",
   "kw_en": [
    "intellectual authority",
@@ -2862,6 +3241,7 @@
   "career_en": "strategic leadership, authority through knowledge, ethical decisions, analytical mastery",
   "career_rev_en": "abuse of intellect, cold ruthlessness, rigid logic, unjust decisions",
   "name_zh": "寶劍國王",
+  "element_zh": "風",
   "kw_zh": [
    "知識權威",
    "真理",
@@ -2877,13 +3257,18 @@
    "不公的判斷"
   ],
   "mean_zh": "知識權威、真理、不偏不倚的判斷、策略、道德清晰。",
-  "mean_rev_zh": "知識的濫用、冷酷無情、操縱、剛硬邏輯、不公的判斷。"
+  "mean_rev_zh": "知識的濫用、冷酷無情、操縱、剛硬邏輯、不公的判斷。",
+  "love_zh": "理性愛情處理，嚴肅溝通，情感自制，公平而深思的伴侶關係",
+  "love_rev_zh": "冷靜邏輯，情感自制，嚴厲判斷，操控",
+  "career_zh": "戰略領導，知識權威，道德決策，分析掌握",
+  "career_rev_zh": "知識主義的濫用，冷靜無情，剛性邏輯，不公決策"
  },
  {
   "id": 64,
   "name_en": "Ace of Pentacles",
   "suit": "pentacles",
   "num": 1,
+  "element": "Earth",
   "img": "Pents01.jpg",
   "kw_en": [
    "new opportunity",
@@ -2907,6 +3292,7 @@
   "career_en": "new job opportunity, financial potential, practical career beginning, building professional security",
   "career_rev_en": "missed opportunity, shaky foundation, scarcity thinking, delayed reward",
   "name_zh": "錢幣王牌",
+  "element_zh": "土",
   "kw_zh": [
    "新機會",
    "繁榮",
@@ -2922,13 +3308,18 @@
    "不良投資"
   ],
   "mean_zh": "新機會、繁榮、顯現、穩固的開始、物質禮物。",
-  "mean_rev_zh": "錯過機會、不穩固的基礎、稀缺思維、延遲的報酬、不良投資。"
+  "mean_rev_zh": "錯過機會、不穩固的基礎、稀缺思維、延遲的報酬、不良投資。",
+  "love_zh": "穩定的新關係，實際承諾，建立安全的未來，可靠的浪漫機會",
+  "love_rev_zh": "不穩定的基礎，錯過機會，不安全感，時間選擇錯誤",
+  "career_zh": "新工作機會，財務潛力，實際職業開始，建立專業安全",
+  "career_rev_zh": "錯過機會，不穩定的基礎，稀缺思維，延遲報酬"
  },
  {
   "id": 65,
   "name_en": "Two of Pentacles",
   "suit": "pentacles",
   "num": 2,
+  "element": "Earth",
   "img": "Pents02.jpg",
   "kw_en": [
    "juggling priorities",
@@ -2952,6 +3343,7 @@
   "career_en": "balancing priorities, multiple jobs or projects, flexible workload, adapting to professional change",
   "career_rev_en": "overcommitment, disorganization, financial strain, dropped balls",
   "name_zh": "錢幣二",
+  "element_zh": "土",
   "kw_zh": [
    "權衡優先事項",
    "適應性",
@@ -2967,13 +3359,18 @@
    "不知所措"
   ],
   "mean_zh": "權衡優先事項、適應性、動態平衡、靈活、管理變化。",
-  "mean_rev_zh": "過度承諾、失誤、混亂、財務壓力、不知所措。"
+  "mean_rev_zh": "過度承諾、失誤、混亂、財務壓力、不知所措。",
+  "love_zh": "平衡愛情與責任，改變關係優先順序，作為一對適應，浪漫的不確定性",
+  "love_rev_zh": "過度承諾，放棄優先順序，不平衡，浪漫過度",
+  "career_zh": "平衡優先順序，多個工作或項目，靈活的負擔，適應專業變化",
+  "career_rev_zh": "過度承諾，無組織，財務壓力，失誤"
  },
  {
   "id": 66,
   "name_en": "Three of Pentacles",
   "suit": "pentacles",
   "num": 3,
+  "element": "Earth",
   "img": "Pents03.jpg",
   "kw_en": [
    "teamwork",
@@ -2997,6 +3394,7 @@
   "career_en": "skilled teamwork, craftsmanship, professional collaboration, recognition for quality",
   "career_rev_en": "poor collaboration, mediocrity, lack of recognition, misaligned goals",
   "name_zh": "錢幣三",
+  "element_zh": "土",
   "kw_zh": [
    "團隊合作",
    "工匠精神",
@@ -3012,13 +3410,18 @@
    "獨自工作"
   ],
   "mean_zh": "團隊合作、工匠精神、技能認可、合作、共同建設。",
-  "mean_rev_zh": "團隊合作不佳、平庸、缺乏認可、目標不一致、獨自工作。"
+  "mean_rev_zh": "團隊合作不佳、平庸、缺乏認可、目標不一致、獨自工作。",
+  "love_zh": "愛情中的團隊合作，共同建立關係，共同努力，學習如何支持對方",
+  "love_rev_zh": "團隊合作不佳，努力不對齊，缺乏認可，獨自工作",
+  "career_zh": "熟練的團隊合作，工藝，專業合作，質量認可",
+  "career_rev_zh": "合作不佳，平庸，缺乏認可，目標不對齊"
  },
  {
   "id": 67,
   "name_en": "Four of Pentacles",
   "suit": "pentacles",
   "num": 4,
+  "element": "Earth",
   "img": "Pents04.jpg",
   "kw_en": [
    "security",
@@ -3042,6 +3445,7 @@
   "career_en": "protecting your position, financial caution, resistance to career change, controlling resources",
   "career_rev_en": "loosening control, financial release, generosity, letting go of security",
   "name_zh": "錢幣四",
+  "element_zh": "土",
   "kw_zh": [
    "安全",
    "堅持",
@@ -3057,13 +3461,18 @@
    "消費"
   ],
   "mean_zh": "安全、堅持、控制、儲蓄、佔有慾。",
-  "mean_rev_zh": "放棄、慷慨、放鬆控制、財務釋放、消費。"
+  "mean_rev_zh": "放棄、慷慨、放鬆控制、財務釋放、消費。",
+  "love_zh": "擁有慾望，恐懼脆弱，緊緊抓住關係，情感控制",
+  "love_rev_zh": "放棄，放鬆控制，慷慨，恐懼減輕",
+  "career_zh": "保護你的位置，財務謹慎，抗拒職業變化，控制資源",
+  "career_rev_zh": "放鬆控制，財務釋放，慷慨，放棄安全"
  },
  {
   "id": 68,
   "name_en": "Five of Pentacles",
   "suit": "pentacles",
   "num": 5,
+  "element": "Earth",
   "img": "Pents05.jpg",
   "kw_en": [
    "hardship",
@@ -3087,6 +3496,7 @@
   "career_en": "unemployment or financial strain, workplace exclusion, difficult career period, seeking support",
   "career_rev_en": "recovery, help accepted, hardship ending, financial improvement",
   "name_zh": "錢幣五",
+  "element_zh": "土",
   "kw_zh": [
    "困難",
    "稀缺",
@@ -3102,13 +3512,18 @@
    "重燃希望"
   ],
   "mean_zh": "困難、稀缺、感到被冷落、財務損失、孤立。",
-  "mean_rev_zh": "恢復、接受幫助、困難結束、尋找庇護所、重燃希望。"
+  "mean_rev_zh": "恢復、接受幫助、困難結束、尋找庇護所、重燃希望。",
+  "love_zh": "感到被拒絕，愛情中的孤獨，關係困難，共同度過困難時期",
+  "love_rev_zh": "恢復，支持被接受，困難結束，重新燃起希望",
+  "career_zh": "失業或財務壓力，職場排斥，困難的職業時期，尋求支持",
+  "career_rev_zh": "恢復，得到幫助，困難結束，財務改善"
  },
  {
   "id": 69,
   "name_en": "Six of Pentacles",
   "suit": "pentacles",
   "num": 6,
+  "element": "Earth",
   "img": "Pents06.jpg",
   "kw_en": [
    "generosity",
@@ -3132,6 +3547,7 @@
   "career_en": "fair compensation, professional mentoring, workplace support, balanced exchange",
   "career_rev_en": "one-sided exchange, strings attached, power imbalance, unfair terms",
   "name_zh": "錢幣六",
+  "element_zh": "土",
   "kw_zh": [
    "慷慨",
    "給予與接受",
@@ -3147,13 +3563,18 @@
    "給予時的自我忽視"
   ],
   "mean_zh": "慷慨、給予與接受、支持、公平、慈善。",
-  "mean_rev_zh": "附加條件、權力不對等、單方面給予、債務、給予時的自我忽視。"
+  "mean_rev_zh": "附加條件、權力不對等、單方面給予、債務、給予時的自我忽視。",
+  "love_zh": "平等給予與索取，愛情中的慷慨，相互支持，平衡的情感努力",
+  "love_rev_zh": "權力不平衡，附加條件，單方面給予，負債",
+  "career_zh": "公平報酬，專業輔導，職場支持，平衡交換",
+  "career_rev_zh": "單方面交換，附加條件，權力不平衡，不公平條件"
  },
  {
   "id": 70,
   "name_en": "Seven of Pentacles",
   "suit": "pentacles",
   "num": 7,
+  "element": "Earth",
   "img": "Pents07.jpg",
   "kw_en": [
    "patience",
@@ -3177,6 +3598,7 @@
   "career_en": "long-term career investment, reviewing progress, patient growth, waiting for results",
   "career_rev_en": "impatience, wasted effort, poor returns, giving up early",
   "name_zh": "錢幣七",
+  "element_zh": "土",
   "kw_zh": [
    "耐心",
    "評估",
@@ -3192,13 +3614,18 @@
    "工作方向錯誤"
   ],
   "mean_zh": "耐心、評估、長遠觀點、緩慢成長、等待收穫。",
-  "mean_rev_zh": "急躁、浪費努力、回報不佳、過早放棄、工作方向錯誤。"
+  "mean_rev_zh": "急躁、浪費努力、回報不佳、過早放棄、工作方向錯誤。",
+  "love_zh": "關係中的耐心，評估愛情進展，長期投資，等待愛情成長",
+  "love_rev_zh": "沒有耐心，浪費努力，過早放棄，回報不佳",
+  "career_zh": "長期職業投資，檢查進展，耐心成長，等待結果",
+  "career_rev_zh": "沒有耐心，浪費努力，回報不佳，過早放棄"
  },
  {
   "id": 71,
   "name_en": "Eight of Pentacles",
   "suit": "pentacles",
   "num": 8,
+  "element": "Earth",
   "img": "Pents08.jpg",
   "kw_en": [
    "diligence",
@@ -3222,6 +3649,7 @@
   "career_en": "skill development, disciplined work, apprenticeship, mastering a profession",
   "career_rev_en": "perfectionism, tedium, cut corners, burnout from the grind",
   "name_zh": "錢幣八",
+  "element_zh": "土",
   "kw_zh": [
    "勤奮",
    "技能建設",
@@ -3237,13 +3665,18 @@
    "過度勞累"
   ],
   "mean_zh": "勤奮、技能建設、工匠精神、專注、重複中達到精通。",
-  "mean_rev_zh": "完美主義、無聊、取巧、錯誤的努力、過度勞累。"
+  "mean_rev_zh": "完美主義、無聊、取巧、錯誤的努力、過度勞累。",
+  "love_zh": "關係中的努力，持續努力，改善溝通，對伴侶的貢獻",
+  "love_rev_zh": "取巧，浪費努力，例行公事，忽視",
+  "career_zh": "技能發展，嚴謹工作，學徒制，掌握專業",
+  "career_rev_zh": "完美主義，無聊，取巧，過度勞累"
  },
  {
   "id": 72,
   "name_en": "Nine of Pentacles",
   "suit": "pentacles",
   "num": 9,
+  "element": "Earth",
   "img": "Pents09.jpg",
   "kw_en": [
    "self-sufficiency",
@@ -3267,6 +3700,7 @@
   "career_en": "independent success, financial self-sufficiency, refined expertise, enjoying earned rewards",
   "career_rev_en": "hollow success, overwork without enjoyment, financial insecurity, overdependence",
   "name_zh": "錢幣九",
+  "element_zh": "土",
   "kw_zh": [
    "自給自足",
    "獲得的奢侈",
@@ -3282,13 +3716,18 @@
    "自我價值與財富綁定"
   ],
   "mean_zh": "自給自足、獲得的奢侈、獨立性、精緻、享受成功。",
-  "mean_rev_zh": "過度依賴、虛幻的成功、過度工作而無享受、財務不穩定性、自我價值與財富綁定。"
+  "mean_rev_zh": "過度依賴、虛幻的成功、過度工作而無享受、財務不穩定性、自我價值與財富綁定。",
+  "love_zh": "愛情中的獨立，享受單身生活，健康的自我價值，尊重個人自由的關係",
+  "love_rev_zh": "過度依賴，虛假的獨立，自我價值與地位相關，不安全感",
+  "career_zh": "獨立成功，財務自給自足，精純專業，享受所賺取的報酬",
+  "career_rev_zh": "虛假的成功，過度勞動無享受，財務不安全，過度依賴"
  },
  {
   "id": 73,
   "name_en": "Ten of Pentacles",
   "suit": "pentacles",
   "num": 10,
+  "element": "Earth",
   "img": "Pents10.jpg",
   "kw_en": [
    "legacy",
@@ -3312,6 +3751,7 @@
   "career_en": "lasting career stability, family business, wealth building, established professional legacy",
   "career_rev_en": "unstable foundations, disputes over resources, short-term thinking, lost security",
   "name_zh": "錢幣十",
+  "element_zh": "土",
   "kw_zh": [
    "遺產",
    "持久的財富",
@@ -3327,13 +3767,18 @@
    "沒有屬於感的財富"
   ],
   "mean_zh": "遺產、持久的財富、家庭安全、繼承、長期基礎。",
-  "mean_rev_zh": "家庭對資源的爭議、不穩固的基礎、短期思維、遺失的繼承、沒有屬於感的財富。"
+  "mean_rev_zh": "家庭對資源的爭議、不穩固的基礎、短期思維、遺失的繼承、沒有屬於感的財富。",
+  "love_zh": "長期承諾，家庭穩定，共享財務安全，共同建立持久的遺產",
+  "love_rev_zh": "家庭爭議，不穩定的基礎，短期思維，緊張的遺產",
+  "career_zh": "持久的職業穩定，家族企業，財富建設，建立的專業遺產",
+  "career_rev_zh": "不穩定的基礎，資源爭議，短期思維，失去安全"
  },
  {
   "id": 74,
   "name_en": "Page of Pentacles",
   "suit": "pentacles",
   "num": 11,
+  "element": "Earth",
   "img": "Pents11.jpg",
   "kw_en": [
    "studiousness",
@@ -3357,6 +3802,7 @@
   "career_en": "career training, entry-level opportunity, practical study, promising financial news",
   "career_rev_en": "procrastination, lack of progress, daydreaming without doing, missed lessons",
   "name_zh": "錢幣侍從",
+  "element_zh": "土",
   "kw_zh": [
    "學習勤奮",
    "新實用技能",
@@ -3372,13 +3818,18 @@
    "錯過的教學"
   ],
   "mean_zh": "學習勤奮、新實用技能、學習機會、踏實的野心、勤奮的開始。",
-  "mean_rev_zh": "拖延、進展緩慢、空想不實行、短暫的專注、錯過的教學。"
+  "mean_rev_zh": "拖延、進展緩慢、空想不實行、短暫的專注、錯過的教學。",
+  "love_zh": "真誠的浪漫興趣，關係慢慢發展，實際的承諾提議，可靠的新的聯繫",
+  "love_rev_zh": "拖延，缺乏進步，潛在能力未實現，短暫興趣",
+  "career_zh": "職業培訓，入門機會，實際學習，有希望的財務新聞",
+  "career_rev_zh": "拖延，缺乏進步，空想不實際，錯過教訓"
  },
  {
   "id": 75,
   "name_en": "Knight of Pentacles",
   "suit": "pentacles",
   "num": 12,
+  "element": "Earth",
   "img": "Pents12.jpg",
   "kw_en": [
    "reliability",
@@ -3402,6 +3853,7 @@
   "career_en": "reliable progress, consistent work, long-term commitment, methodical career growth",
   "career_rev_en": "stagnation, boredom, workaholism, stuck in a rut",
   "name_zh": "錢幣騎士",
+  "element_zh": "土",
   "kw_zh": [
    "可靠",
    "系統性進步",
@@ -3417,13 +3869,18 @@
    "陷入困境"
   ],
   "mean_zh": "可靠、系統性進步、勤勞、耐心、對日常生活的承諾。",
-  "mean_rev_zh": "停滯、無聊、固執、工作狂、陷入困境。"
+  "mean_rev_zh": "停滯、無聊、固執、工作狂、陷入困境。",
+  "love_zh": "忠誠的伴侶，慢而穩定的浪漫，可靠的承諾，隨著時間建立信任",
+  "love_rev_zh": "停滯不前，無聊，固執，陷入例行公事",
+  "career_zh": "可靠的進步，持續工作，長期承諾，系統性的職業增長",
+  "career_rev_zh": "停滯不前，無聊，工作狂，陷入困境"
  },
  {
   "id": 76,
   "name_en": "Queen of Pentacles",
   "suit": "pentacles",
   "num": 13,
+  "element": "Earth",
   "img": "Pents13.jpg",
   "kw_en": [
    "nurturing practicality",
@@ -3447,6 +3904,7 @@
   "career_en": "practical leadership, resource management, work-life balance, creating a secure workplace",
   "career_rev_en": "work-home imbalance, self-neglect, depletion, financial codependence",
   "name_zh": "錢幣王后",
+  "element_zh": "土",
   "kw_zh": [
    "培養實用主義",
    "應變能力",
@@ -3462,13 +3920,18 @@
    "照顧者耗竭"
   ],
   "mean_zh": "培養實用主義、應變能力、溫暖與安全、工作供應者、踏實的照顧。",
-  "mean_rev_zh": "自我忽視、工作與生活的平衡失調、過度照顧、財務相互依賴、照顧者耗竭。"
+  "mean_rev_zh": "自我忽視、工作與生活的平衡失調、過度照顧、財務相互依賴、照顧者耗竭。",
+  "love_zh": "滋養伴侶關係，實際的愛情，情感和物質安全，創造舒適的家",
+  "love_rev_zh": "自我忽視，過度照顧，不平衡，精力耗盡",
+  "career_zh": "實際領導，資源管理，工作與生活的平衡，創造安全的職場",
+  "career_rev_zh": "工作與生活不平衡，自我忽視，精力耗盡，財務相互依賴"
  },
  {
   "id": 77,
   "name_en": "King of Pentacles",
   "suit": "pentacles",
   "num": 14,
+  "element": "Earth",
   "img": "Pents14.jpg",
   "kw_en": [
    "material mastery",
@@ -3492,6 +3955,7 @@
   "career_en": "business success, financial leadership, dependable authority, long-term prosperity",
   "career_rev_en": "greed, materialism, rigid control of resources, status obsession",
   "name_zh": "錢幣國王",
+  "element_zh": "土",
   "kw_zh": [
    "物質掌控",
    "豐富",
@@ -3507,6 +3971,10 @@
    "舒適的腐敗"
   ],
   "mean_zh": "物質掌控、豐富、穩定的領導、商業洞察力、可靠的供應者。",
-  "mean_rev_zh": "貪婪、物質主義、對資源剛硬的控制、對地位的執著、舒適的腐敗。"
+  "mean_rev_zh": "貪婪、物質主義、對資源剛硬的控制、對地位的執著、舒適的腐敗。",
+  "love_zh": "可靠的承諾，保護性的伴侶關係，長期穩定，在愛情中提供安全",
+  "love_rev_zh": "物質主義，通過提供來控制，對地位的執著，僵化",
+  "career_zh": "商業成功，財務領導，可靠的權威，長期繁榮",
+  "career_rev_zh": "貪婪，物質主義，剛性控制資源，對地位的執著"
  }
 ]
