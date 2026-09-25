@@ -6,7 +6,7 @@ import json, os, subprocess, sys, time
 API = os.environ.get("INFERAI_API_KEY")
 BASE = "https://inferaiapi.com/v1/chat/completions"
 MODEL = "deepseek-v4-pro"
-THEMES = {"health": "健康", "wealth": "財富", "study": "學業", "family": "家庭"}
+THEMES = {"health": "健康", "wealth": "財富", "study": "學業", "family": "家庭", "social": "人際", "mind": "心靈"}
 
 theme = sys.argv[1]
 tzh = THEMES[theme]

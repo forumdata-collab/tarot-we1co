@@ -14,7 +14,7 @@ if os.path.exists("/home/ubuntu/tarot-site/data/zh_love_partial.json"):
 love.update({int(k): v for k, v in json.load(open("/home/ubuntu/tarot-site/data/majors_love_zh.json")).items()})
 
 ELEMENT_ZH = {"Fire": "火", "Water": "水", "Air": "風", "Earth": "土"}
-THEMES = ["health", "wealth", "study", "family"]
+THEMES = ["health", "wealth", "study", "family", "social", "mind"]
 theme = {}
 for T in THEMES:
     fp = f"/home/ubuntu/tarot-site/data/zh_theme_{T}.json"
@@ -54,7 +54,6 @@ for c in final:
             if isinstance(v, str): c[fld] = cc.convert(v)
 
 json.dump(final, open("/home/ubuntu/tarot-site/data/deck.json", "w"), ensure_ascii=False, indent=1)
-json.dump(final, open("/home/ubuntu/tarot-site/deck.json", "w"), ensure_ascii=False, indent=1)
-print("deck.json:", len(final), "cards,", os.path.getsize("/home/ubuntu/tarot-site/deck.json"), "bytes")
+print("data/deck.json:", len(final), "cards,", os.path.getsize("/home/ubuntu/tarot-site/data/deck.json"), "bytes")
 print("id0 love:", final[0]["love_zh"], "| career:", final[0]["career_zh"])
 print("id6 love:", final[6]["love_zh"])

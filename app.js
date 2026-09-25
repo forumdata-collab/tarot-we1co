@@ -10,12 +10,15 @@ const T = {
     "setup.chipHint": "選一個主題，會即時套用預設問題；唔揀都可以自訂問題。",
     "theme.health": "健康", "theme.love": "愛情", "theme.career": "事業",
     "theme.wealth": "財富", "theme.study": "學業", "theme.family": "家庭",
+    "theme.social": "人際", "theme.mind": "心靈",
     "theme.q.health": "我想了解健康近況與調理方向",
     "theme.q.love": "我想了解感情發展與緣份",
     "theme.q.career": "我想了解事業運勢與方向",
     "theme.q.wealth": "我想了解財富與理財方向",
     "theme.q.study": "我想了解學業與學習進展",
     "theme.q.family": "我想了解家庭關係與和睦",
+    "theme.q.social": "我想了解人際關係與社交圈",
+    "theme.q.mind": "我想了解內心狀態與心靈成長",
     "theme.line": "主題深度解讀（已預生成）",
     "deep.btnTheme": "✦ 主題深度解讀",
     "setup.spread": "選擇牌陣",
@@ -60,12 +63,15 @@ const T = {
     "setup.chipHint": "Pick a theme to fill a preset question — or type your own.",
     "theme.health": "Health", "theme.love": "Love", "theme.career": "Career",
     "theme.wealth": "Wealth", "theme.study": "Study", "theme.family": "Family",
+    "theme.social": "Social", "theme.mind": "Mind",
     "theme.q.health": "I'd like insight into my health and how to take care of myself",
     "theme.q.love": "I'd like insight into my love life and connections",
     "theme.q.career": "I'd like insight into my career path and direction",
     "theme.q.wealth": "I'd like insight into my wealth and finances",
     "theme.q.study": "I'd like insight into my studies and progress",
     "theme.q.family": "I'd like insight into my family and harmony at home",
+    "theme.q.social": "I'd like insight into my friendships and social circle",
+    "theme.q.mind": "I'd like insight into my inner state and spiritual growth",
     "theme.line": "Theme deep reading (pre-generated)",
     "deep.btnTheme": "✦ Theme Deep Reading",
     "setup.spread": "Choose a Spread",
@@ -113,7 +119,7 @@ let state = { spread: 3, reversed: true, question: "", theme: null, shuffled: []
 const $ = (s) => document.querySelector(s);
 const $$ = (s) => document.querySelectorAll(s);
 const t = (k) => (T[lang] && T[lang][k]) || k;
-const THEME_EMOJI = { health: "🩺", love: "💗", career: "💼", wealth: "💰", study: "📚", family: "🏠" };
+const THEME_EMOJI = { health: "🩺", love: "💗", career: "💼", wealth: "💰", study: "📚", family: "🏠", social: "🤝", mind: "🧘" };
 
 function switchLang(to) {
   lang = to;
@@ -146,7 +152,7 @@ function posLabel(i) {
 
 /* ------- deck ------- */
 function shuffleDeck() {
-  const a = deck.slice();
+  const a = Object.values(deck);
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
@@ -231,8 +237,9 @@ function startShuffleAnim() {
 }
 
 /* ------- deal & draw ------- */
-function deal() {
+async function deal() {
   const n = state.spread;
+  if (state.theme) await ensureThemes();
   for (let i = 0; i < n; i++) {
     const card = state.shuffled[i];
     const rev = state.reversed && Math.random() < 0.3;
@@ -261,10 +268,23 @@ function deal() {
 }
 
 function cardUrl(card) {
-  return "./cards/" + card.img;
+  return "./cards/" + card.img + "?v=2";
 }
 function cardById(id) {
-  return deck.find((c) => c.id === id);
+  return deck[String(id)];
+}
+let themesData = null;
+async function ensureThemes() {
+  if (themesData) return themesData;
+  themesData = await (await fetch("./themes.json?v=1")).json();
+  return themesData;
+}
+function themeText(card, theme, rev) {
+  const src = themesData && themesData[String(card.id)];
+  if (!src) return "";
+  return lang === "zh"
+    ? src[theme + (rev ? "_rev" : "") + "_zh"]
+    : src[theme + (rev ? "_rev_en" : "_en")];
 }
 
 function flipCard(i, wrap) {
@@ -291,6 +311,9 @@ function addReadingCard(i) {
   const posCtx = (T[lang]["posctx." + state.spread] || [])[i] || "";
   const rc = document.createElement("div");
   rc.className = "reading-card" + (rev ? " rev" : "");
+  const themeRow = state.theme && state.theme !== "love" && state.theme !== "career"
+    ? `<div class="rc-aspect theme-line"><span class="aspect-label">${THEME_EMOJI[state.theme] || ""} ${t("theme." + state.theme)}</span>
+        <span class="aspect-txt">${themeText(c, state.theme, rev) || ""}</span></div>` : "";
   rc.innerHTML = `
     <div class="rc-img"><img src="${cardUrl(c)}" alt="${c.name_en}" loading="lazy" /></div>
     <div class="rc-body">
@@ -306,8 +329,7 @@ function addReadingCard(i) {
           .map((k) => `<span class="kw">${k}</span>`).join("")}
       </div>
       <p class="rc-mean"><b>${t("sec.mean")} ·</b> ${rev ? (f("mean_rev_zh", "mean_rev_en") || "") : (f("mean_zh", "mean_en") || "")}</p>
-      ${state.theme && state.theme !== "love" && state.theme !== "career" ? `<div class="rc-aspect theme-line"><span class="aspect-label">${THEME_EMOJI[state.theme] || ""} ${t("theme." + state.theme)}</span>
-        <span class="aspect-txt">${(lang === "zh" ? c[state.theme + (rev ? "_rev" : "") + "_zh"] : c[state.theme + (rev ? "_rev_en" : "_en")]) || ""}</span></div>` : ""}
+      ${themeRow}
       <div class="rc-aspect"><span class="aspect-label">${t("sec.love")}</span>
         <span class="aspect-txt">${rev ? (f("love_rev_zh", "love_rev_en") || "") : (f("love_zh", "love_en") || "")}</span></div>
       <div class="rc-aspect"><span class="aspect-label">${t("sec.career")}</span>
@@ -366,13 +388,12 @@ async function runDeepReading() {
   btn.disabled = true;
   // Pre-generated theme reading — zero AI usage
   if (state.theme) {
+    await ensureThemes();
     const tname = state.theme;
     const para = state.drawn
       .map((d, i) => {
         const c = cardById(d.id);
-        const line = lang === "zh"
-          ? (d.rev ? c[tname + "_rev_zh"] : c[tname + "_zh"])
-          : (d.rev ? c[tname + "_rev_en"] : c[tname + "_en"]);
+        const line = themeText(c, tname, d.rev) || "";
         return lang === "zh"
           ? `「${posLabel(i)}」的〈${c.name_zh}〉（${d.rev ? t("badge.rev") : t("badge.up")}）：${line}`
           : `${c.name_en} (${d.rev ? "reversed" : "upright"}) in ${posLabel(i)}: ${line}`;
@@ -447,9 +468,9 @@ function bindActions() {
 /* ------- boot ------- */
 async function init() {
   try {
-    const r = await fetch("./deck.json?v=1");
+    const r = await fetch("./deck.json?v=2");
     deck = await r.json();
-    if (!Array.isArray(deck) || deck.length !== 78) throw new Error("deck json invalid");
+    if (!deck || typeof deck !== "object" || Object.keys(deck).length !== 78) throw new Error("deck json invalid");
   } catch (e) {
     console.error(e);
     $("#start-btn").disabled = true;
